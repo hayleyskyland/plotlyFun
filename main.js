@@ -11,23 +11,27 @@
 //   {showSendToCloud:true}
 // );
 
+
+
+
+
+
+
 // histogram
 
-var x = ['Kitties', 'Kitties', 'Kitties', 'Bunnies', 'Bunnies', 'Snails', 'Snails']
-var y = [1, 2, 3, 1, 2, 0, 500]
+var xTotal = ['Kitties', 'Kitties', 'Kitties', 'Bunnies', 'Bunnies', 'Tanks', 'Tanks', 'Tanks', 'Tanks', 'Tanks']
+var xCurrent = ['Kitties', 'Kitties', 'Tanks']
 
 var trace = [
   {
-    name: "Current",
-    x: x,
-    y: y,
+    name: "Total",
+    x: xTotal,
     type: 'histogram',
     marker: { color: 'pink' },
   },
   {
-    name: "Total",
-    x: x,
-    y: y,
+    name: "Current",
+    x: xCurrent,
     type: 'histogram',
     marker: { color: 'lightgray' },
   }
@@ -47,24 +51,36 @@ var layout = {
 
 Plotly.newPlot('histogram', data, layout);
 
+
+
+
+
+
+
+
+
+
+
+
+
 // scatter
 
-var x = ['Kitties', 'Kitties', 'Kitties', 'Bunnies', 'Bunnies', 'Snails', 'Snails']
-var y = [1, 2, 3, 1, 2, 0, 500]
+var x = [1, 2, 3, 4, 5]
+var y = [50, 24, 53, 2, 1]
 
 var trace = [
   {
     name: "Current",
     x: x,
     y: y,
-    type: 'histogram',
+    type: 'scatter',
     marker: { color: 'pink' },
   },
   {
     name: "Total",
     x: x,
     y: y,
-    type: 'histogram',
+    type: 'scatter',
     marker: { color: 'lightgray' },
   }
 ]
@@ -74,7 +90,7 @@ var data = trace;
 var layout = {
   bargap: 0.05, 
   bargroupgap: 0.2, 
-  title: 'Histogram Test', 
+  title: 'Scatter Test', 
   xaxis: {title: 'Time'}, 
   yaxis: {title: 'Quantity'},
   width: 500,
