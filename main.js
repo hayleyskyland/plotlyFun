@@ -41,28 +41,45 @@ const histogram = () => {
 // scatter
 
 const scatter = () => {
-  const x1 = [1, 2, 3, 4, 5]
-  const x2 = [2, 2, 5, 4, 6]
-  const x3 = [1, 1, 2, 8, 8]
+  const x1 = [1, 2, 3, 4, 5];
+  const x2 = [2, 2, 5, 4, 6];
+  const x3 = [1, 1, 2, 8, 8];
+
+  const avg = (i) => {
+    const sum = x1[i] + x2[i] + x3[i];
+    return sum / 3;
+  }
+
+  const xAvg = [avg(0), avg(1), avg(2), avg(3), avg(4)]
 
   const trace = [
     {
       name: '1st Run',
+      mode: 'markers',
       x: x1,
       type: 'scatter',
       marker: { color: 'pink' },
     },
     {
       name: '2nd Run',
+      mode: 'markers',
       x: x2,
       type: 'scatter',
-      marker: { color: 'lightgray' },
+      marker: { color: 'plum' },
     },
     {
       name: '3rd Run',
+      mode: 'markers',
       x: x3,
       type: 'scatter',
       marker: { color: 'lightblue' },
+    },
+    {
+      name: 'Average',
+      mode: 'line',
+      x: xAvg,
+      type: 'scatter',
+      marker: { color: 'lightgray' },
     }
   ]
 
