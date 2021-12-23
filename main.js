@@ -13,17 +13,34 @@
 
 // histogram
 
-var x = [];
+var x = ['Kitties', 'Kitties', 'Kitties', 'Bunnies', 'Bunnies', 'Snails']
+var y = ['3', '3', '1', '3', '500', '500']
 
-for (var i = 0; i < 500; i ++) {
-	x[i] = Math.random();
-}
+var trace = [
+  {
+    name: "Current",
+    x: x,
+    y: y,
+    type: 'histogram',
+    marker: { color: 'pink' },
+  },
+  {
+    name: "Total",
+    x: x,
+    y: y,
+    type: 'histogram',
+    marker: { color: 'lightgray' },
+  }
+]
 
-var trace = {
-  x: x,
-  type: 'histogram',
+var data = trace;
+
+var layout = {
+  bargap: 0.05, 
+  bargroupgap: 0.2, 
+  title: 'Histogram Test', 
+  xaxis: {title: 'Time'}, 
+  yaxis: {title: 'Quantity'}
 };
 
-var data = [trace];
-
-Plotly.newPlot('histogram', data);
+Plotly.newPlot('histogram', data, layout);
