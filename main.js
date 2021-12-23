@@ -6,13 +6,13 @@ const histogram = () => {
 
   const trace = [
     {
-      name: "Total",
+      name: 'Total',
       x: xTotal,
       type: 'histogram',
       marker: { color: 'pink' },
     },
     {
-      name: "Current",
+      name: 'Current',
       x: xCurrent,
       type: 'histogram',
       marker: { color: 'lightgray' },
@@ -25,7 +25,7 @@ const histogram = () => {
     bargap: 0.05, 
     bargroupgap: 0.2, 
     title: 'Histogram Test', 
-    xaxis: {title: 'Time'}, 
+    xaxis: {title: 'Animals'}, 
     yaxis: {title: 'Quantity'},
     width: 500,
     height: 500,
@@ -41,33 +41,36 @@ const histogram = () => {
 // scatter
 
 const scatter = () => {
-  const x = [1, 2, 3, 4, 5]
-  const y = [50, 24, 53, 2, 1]
+  const x1 = [1, 2, 3, 4, 5]
+  const x2 = [2, 2, 5, 4, 6]
+  const x3 = [1, 1, 2, 8, 8]
 
   const trace = [
     {
-      name: "Current",
-      x: x,
-      y: y,
+      name: '1st Run',
+      x: x1,
       type: 'scatter',
       marker: { color: 'pink' },
     },
     {
-      name: "Total",
-      x: x,
-      y: y,
+      name: '2nd Run',
+      x: x2,
       type: 'scatter',
       marker: { color: 'lightgray' },
+    },
+    {
+      name: '3rd Run',
+      x: x3,
+      type: 'scatter',
+      marker: { color: 'lightblue' },
     }
   ]
 
   const data = trace;
 
   const layout = {
-    bargap: 0.05, 
-    bargroupgap: 0.2, 
     title: 'Scatter Test', 
-    xaxis: {title: 'Time'}, 
+    xaxis: {title: 'Days'}, 
     yaxis: {title: 'Quantity'},
     width: 500,
     height: 500,
