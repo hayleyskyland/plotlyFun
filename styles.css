@@ -22,3 +22,8 @@ h1 {
 article {
   margin: 1rem;
 }
+
+.matrix {
+  background-color: white !important;
+  width: 50px !important;
+}
