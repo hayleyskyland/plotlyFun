@@ -3,7 +3,7 @@ export const matrix = () => {
   // variables
 
   const size = 230;
-  const padding = 20;
+  const padding = 1;
 
   const x = d3.scale.linear()
     .range([padding / 2, size - padding / 2]);
@@ -25,7 +25,7 @@ export const matrix = () => {
 
   // display function
 
-  d3.csv('flowers.csv', function(error, data) {
+  d3.csv('batches.csv', function(error, data) {
     if (error) throw error;
 
     const domainByTrait = {},
@@ -49,9 +49,9 @@ export const matrix = () => {
     const svg = d3.select('body').append('svg')
       .attr('width', size * n + padding)
       .attr('height', size * n + padding)
+      .attr('class', 'matrix')
       .append('g')
       .attr('transform', 'translate(' + padding + ',' + padding / 2 + ')')
-      .attr('class', 'matrix');
 
     svg.selectAll('.x.axis')
       .data(traits)
@@ -70,11 +70,13 @@ export const matrix = () => {
     const cell = svg.selectAll('.cell')
       .data(cross(traits, traits))
       .enter().append('g')
+      .attr("fill", "white")
+      .attr('class', 'matrix')
       .attr('class', 'cell')
       .attr('transform', function(d) { return 'translate(' + (n - d.i - 1) * size + ',' + d.j * size + ')'; })
       .each(plot);
 
-    // Titles for the diagonal.
+    // titles for diagonal
 
     cell.filter(function(d) { return d.i === d.j; }).append('text')
       .attr('x', padding)
@@ -109,7 +111,7 @@ export const matrix = () => {
 
     let brushCell;
 
-    // clear the previously-active brush, if any
+    // clear previously-active brush (if any)
 
     function brushstart(p) {
       if (brushCell !== this) {
@@ -120,7 +122,7 @@ export const matrix = () => {
       }
     }
 
-    // highlight the selected circles
+    // highlight selected circles
 
     function brushmove(p) {
       const e = brush.extent();
@@ -130,7 +132,7 @@ export const matrix = () => {
       });
     }
 
-    // if the brush is empty, select all circles
+    // if the brush empty, select all circles
 
     function brushend() {
       if (brush.empty()) svg.selectAll('.hidden').classed('hidden', false);
