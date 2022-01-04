@@ -13,13 +13,13 @@ export const matrix = () => {
 
   const xAxis = d3.svg.axis()
     .scale(x)
-    .orient('bottom')
-    .ticks(6);
+    .orient('top') // top axis labels (not showing up)
+    .ticks(6); // how many labels
 
   const yAxis = d3.svg.axis()
     .scale(y)
-    .orient('left')
-    .ticks(6);
+    .orient('left') // left axis labels
+    .ticks(6); // how many labels
 
   const color = d3.scale.category20();
 
@@ -42,16 +42,13 @@ export const matrix = () => {
     const brush = d3.svg.brush()
       .x(x)
       .y(y)
-      .on('brushstart', brushstart)
-      .on('brush', brushmove)
-      .on('brushend', brushend);
 
     const svg = d3.select('body').append('svg')
       .attr('width', size * n + padding)
       .attr('height', size * n + padding)
-      .attr('class', 'matrix')
+      .attr('class', 'matrix') // add html class to axis labels
       .append('g')
-      .attr('transform', 'translate(' + padding + ',' + padding / 2 + ')')
+      .attr('transform', 'translate(' + 55 + ',' + padding / 2 + ')')
 
     svg.selectAll('.x.axis')
       .data(traits)
@@ -76,15 +73,7 @@ export const matrix = () => {
       .attr('transform', function(d) { return 'translate(' + (n - d.i - 1) * size + ',' + d.j * size + ')'; })
       .each(plot);
 
-    // titles for diagonal
-
-    cell.filter(function(d) { return d.i === d.j; }).append('text')
-      .attr('x', padding)
-      .attr('y', padding)
-      .attr('dy', '.71em')
-      .text(function(d) { return d.x; });
-
-    cell.call(brush);
+    // dots
 
     function plot(p) {
       const cell = d3.select(this);
@@ -94,8 +83,6 @@ export const matrix = () => {
 
       cell.append('rect')
         .attr('class', 'frame')
-        .attr('x', padding / 2)
-        .attr('y', padding / 2)
         .attr('width', size - padding)
         .attr('height', size - padding);
 
@@ -104,38 +91,8 @@ export const matrix = () => {
         .enter().append('circle')
         .attr('cx', function(d) { return x(d[p.x]); })
         .attr('cy', function(d) { return y(d[p.y]); })
-        .attr('r', 4)
-        .style('fill', function(d) { return color(d.species); })
-        // .style('background-color', 'white');
-    }
-
-    let brushCell;
-
-    // clear previously-active brush (if any)
-
-    function brushstart(p) {
-      if (brushCell !== this) {
-        d3.select(brushCell).call(brush.clear());
-        x.domain(domainByTrait[p.x]);
-        y.domain(domainByTrait[p.y]);
-        brushCell = this;
-      }
-    }
-
-    // highlight selected circles
-
-    function brushmove(p) {
-      const e = brush.extent();
-      svg.selectAll('circle').classed('hidden', function(d) {
-        return e[0][0] > d[p.x] || d[p.x] > e[1][0]
-            || e[0][1] > d[p.y] || d[p.y] > e[1][1];
-      });
-    }
-
-    // if the brush empty, select all circles
-
-    function brushend() {
-      if (brush.empty()) svg.selectAll('.hidden').classed('hidden', false);
+        .attr('r', 4) // dot size
+        .style('fill', function(d) { return color(d.batch); }) // dot color
     }
 
     function cross(a, b) {

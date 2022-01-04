@@ -24,6 +24,6 @@ article {
 }
 
 .matrix {
-  background-color: white !important;
-  /* width: 50px !important; */
+  background-color: pink !important;
+  font-weight: bold;
 }
