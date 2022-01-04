@@ -62,14 +62,12 @@ export const matrix = () => {
       .enter().append('g')
       .attr('class', 'y axis')
       .attr('transform', function(d, i) { return 'translate(0,' + i * size + ')'; })
-      .each(function(d) { y.domain(domainByTrait[d]); d3.select(this).call(yAxis); });
+      .each(function(d) { y.domain(domainByTrait[d]); d3.select(this).call(yAxis); }); // left axis show up
 
     const cell = svg.selectAll('.cell')
       .data(cross(traits, traits))
       .enter().append('g')
       .attr("fill", "white")
-      .attr('class', 'matrix')
-      .attr('class', 'cell')
       .attr('transform', function(d) { return 'translate(' + (n - d.i - 1) * size + ',' + d.j * size + ')'; })
       .each(plot);
 
