@@ -5,12 +5,14 @@ body {
   flex-direction: column;
   text-align: center;
   background-color: cadetblue;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 h1 {
+  margin-top: 2rem;
   margin-bottom: 2rem;
   color: white;
+  font-size: 6rem;
 }
 
 .charts {
