@@ -1,9 +1,9 @@
-// import { histogram } from './histogram.js';
-// import { scatter } from './scatter.js';
+import { histogram } from './histogram.js';
+import { scatter } from './scatter.js';
 // import { matrixTest } from './matrixTest.js';
 import { matrix } from './matrix.js';
 
-// histogram()
-// scatter()
+histogram()
+scatter()
 // matrixTest()
 matrix()

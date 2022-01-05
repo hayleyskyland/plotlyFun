@@ -44,8 +44,8 @@ export const matrix = () => {
       .y(y)
 
     const svg = d3.select('body').append('svg')
-      .attr('width', size * n + padding)
-      .attr('height', size * n + padding)
+      .attr('width', 1435)
+      .attr('height', 1381)
       .attr('class', 'matrix') // add html class to axis labels
       .append('g')
       .attr('transform', 'translate(' + 55 + ',' + padding / 2 + ')')

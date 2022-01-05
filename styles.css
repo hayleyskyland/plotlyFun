@@ -5,6 +5,7 @@ body {
   flex-direction: column;
   text-align: center;
   background-color: cadetblue;
+  margin-bottom: 10rem;
 }
 
 h1 {
