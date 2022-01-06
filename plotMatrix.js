@@ -1,4 +1,4 @@
-export const plotMatrixTest = () => {
+export const plotMatrix = () => {
 
   var trace1 = {
     x: [1, 2, 3],
