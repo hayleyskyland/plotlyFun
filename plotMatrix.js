@@ -246,9 +246,28 @@ export const plotMatrix = () => {
   ];
   
   var layout = {
-    grid: {rows: 5, columns: 5, pattern: 'independent'},
-    width: 800,
-    height: 800
+    // legend: {
+    //   grouptitlefont: {
+    //     size: 0.2,
+    //   }
+    // },
+    grid: {
+      rows: 5,
+      columns: 5,
+      pattern: 'independent',
+      xgap: .325,
+      ygap: .325,
+    },
+    width: 900,
+    height: 900,
+    // padding: 2,
+    bargap: 0.05, 
+    bargroupgap: 0.2, 
+    margin: {
+      t: 50,
+      l: 50,
+      b: 50,
+    },
   };
 
   // invoke
