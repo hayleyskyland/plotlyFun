@@ -246,7 +246,7 @@ export const plotMatrix = () => {
   ];
   
   var layout = {
-    title: 'Matrix Test', 
+    title: 'Title for Matrix Test<br>Subtitle for Matrix Test', 
     // legend: {
     //   grouptitlefont: {
     //     size: 0.2,
