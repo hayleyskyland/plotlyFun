@@ -246,6 +246,7 @@ export const plotMatrix = () => {
   ];
   
   var layout = {
+    title: 'Matrix Test', 
     // legend: {
     //   grouptitlefont: {
     //     size: 0.2,
@@ -264,9 +265,9 @@ export const plotMatrix = () => {
     bargap: 0.05, 
     bargroupgap: 0.2, 
     margin: {
-      t: 50,
-      l: 50,
-      b: 50,
+      // t: 50,
+      // l: 50,
+      b: 65,
     },
   };
 
