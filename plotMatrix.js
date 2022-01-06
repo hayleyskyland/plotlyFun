@@ -46,7 +46,7 @@ export const plotMatrix = () => {
     xaxis: 'x5',
     yaxis: 'y5',
     type: 'scatter',
-    marker: { color: 'pink' },
+    marker: { color: 'plum' },
   };
   
   var traceB2 = {
@@ -54,8 +54,8 @@ export const plotMatrix = () => {
     y: [7000, 8000, 9000],
     xaxis: 'x6',
     yaxis: 'y6',
-    type: 'scatter',
-    marker: { color: 'plum' },
+    type: 'histogram',
+    marker: { color: 'lightblue' },
   };
 
   var traceB3 = {
@@ -63,8 +63,8 @@ export const plotMatrix = () => {
     y: [7000, 8000, 9000],
     xaxis: 'x7',
     yaxis: 'y7',
-    type: 'histogram',
-    marker: { color: 'lightblue' },
+    type: 'scatter',
+    marker: { color: 'lightgray' },
   };
 
   var traceB4 = {
@@ -73,7 +73,7 @@ export const plotMatrix = () => {
     xaxis: 'x8',
     yaxis: 'y8',
     type: 'scatter',
-    marker: { color: 'lightgray' },
+    marker: { color: 'pink' },
   };
 
   // row C
@@ -84,7 +84,7 @@ export const plotMatrix = () => {
     xaxis: 'x9',
     yaxis: 'y9',    
     type: 'scatter',
-    marker: { color: 'pink' },
+    marker: { color: 'lightblue' },
   };
   
   var traceC2 = {
@@ -93,7 +93,7 @@ export const plotMatrix = () => {
     xaxis: 'x10',
     yaxis: 'y10',
     type: 'scatter',
-    marker: { color: 'plum' },
+    marker: { color: 'lightgray' },
   };
 
   var traceC3 = {
@@ -101,8 +101,8 @@ export const plotMatrix = () => {
     y: [50, 60, 70],
     xaxis: 'x11',
     yaxis: 'y11',
-    type: 'scatter',
-    marker: { color: 'lightblue' },
+    type: 'histogram',
+    marker: { color: 'pink' },
   };
 
   var traceC4 = {
@@ -111,7 +111,7 @@ export const plotMatrix = () => {
     xaxis: 'x12',
     yaxis: 'y12',
     type: 'scatter',
-    marker: { color: 'lightgray' },
+    marker: { color: 'plum' },
   };
 
   // row D
@@ -121,8 +121,8 @@ export const plotMatrix = () => {
     y: [4, 5, 6],
     xaxis: 'x13',
     yaxis: 'y13',    
-    type: 'histogram',
-    marker: { color: 'pink' },
+    type: 'scatter',
+    marker: { color: 'lightgray' },
   };
   
   var traceD2 = {
@@ -131,7 +131,7 @@ export const plotMatrix = () => {
     xaxis: 'x14',
     yaxis: 'y14',
     type: 'scatter',
-    marker: { color: 'plum' },
+    marker: { color: 'pink' },
   };
 
   var traceD3 = {
@@ -140,7 +140,7 @@ export const plotMatrix = () => {
     xaxis: 'x15',
     yaxis: 'y15',
     type: 'scatter',
-    marker: { color: 'lightblue' },
+    marker: { color: 'plum' },
   };
 
   var traceD4 = {
@@ -148,46 +148,8 @@ export const plotMatrix = () => {
     y: [50, 60, 70],
     xaxis: 'x16',
     yaxis: 'y16',
-    type: 'scatter',
-    marker: { color: 'lightgray' },
-  };
-
-  // row E
-
-  var traceE1 = {
-    x: [1, 2, 3],
-    y: [4, 5, 6],
-    xaxis: 'x17',
-    yaxis: 'y17',    
-    type: 'scatter',
-    marker: { color: 'pink' },
-  };
-  
-  var traceE2 = {
-    x: [20, 30, 40],
-    y: [50, 60, 70],
-    xaxis: 'x18',
-    yaxis: 'y18',
-    type: 'scatter',
-    marker: { color: 'plum' },
-  };
-
-  var traceE3 = {
-    x: [20, 30, 40],
-    y: [50, 60, 70],
-    xaxis: 'x19',
-    yaxis: 'y19',
     type: 'histogram',
     marker: { color: 'lightblue' },
-  };
-
-  var traceE4 = {
-    x: [20, 30, 40],
-    y: [50, 60, 70],
-    xaxis: 'x20',
-    yaxis: 'y20',
-    type: 'scatter',
-    marker: { color: 'lightgray' },
   };
 
   // variables
@@ -196,12 +158,11 @@ export const plotMatrix = () => {
     traceA1, traceA2, traceA3, traceA4,
     traceB1, traceB2, traceB3, traceB4,
     traceC1, traceC2, traceC3, traceC4,
-    traceD1, traceD2, traceD3, traceD4,
-    traceE1, traceE2, traceE3, traceE4,
+    traceD1, traceD2, traceD3, traceD4
   ];
   
   var layout = {
-    grid: {rows: 5, columns: 5, pattern: 'independent'},
+    grid: {rows: 4, columns: 4, pattern: 'independent'},
     width: 800,
     height: 800
   };
