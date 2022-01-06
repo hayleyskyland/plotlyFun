@@ -8,4 +8,4 @@ import { plotMatrixTest } from './plotMatrixTest.js';
 // scatter()
 // d3MatrixTest()
 // d3Matrix()
-plotMatrixTest()
+plotMatrixTest() 
