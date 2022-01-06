@@ -1,4 +1,4 @@
-export const matrix = () => {
+export const d3Matrix = () => {
 
   // variables
 
