@@ -36,6 +36,7 @@ export const traceA1 = {
   xaxis: 'x1',
   yaxis: 'y1',    
   type: 'histogram',
+  mode: 'markers',
   marker: { color: 'plum' },
 };
 
@@ -73,6 +74,7 @@ export const traceA2d = {
   xaxis: 'x2',
   yaxis: 'y2',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -110,6 +112,7 @@ export const traceA3d = {
   xaxis: 'x3',
   yaxis: 'y3',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -147,6 +150,7 @@ export const traceA4d = {
   xaxis: 'x4',
   yaxis: 'y4',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -184,6 +188,7 @@ export const traceA5d = {
   xaxis: 'x5',
   yaxis: 'y5',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -223,6 +228,7 @@ export const traceB1d = {
   xaxis: 'x6',
   yaxis: 'y6',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -271,6 +277,7 @@ export const traceB3d = {
   xaxis: 'x8',
   yaxis: 'y8',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -308,6 +315,7 @@ export const traceB4d = {
   xaxis: 'x9',
   yaxis: 'y9',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -345,6 +353,7 @@ export const traceB5d = {
   xaxis: 'x10',
   yaxis: 'y10',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -384,6 +393,7 @@ export const traceC1d = {
   xaxis: 'x11',
   yaxis: 'y11',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -421,6 +431,7 @@ export const traceC2d = {
   xaxis: 'x12',
   yaxis: 'y12',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -469,6 +480,7 @@ export const traceC4d = {
   xaxis: 'x14',
   yaxis: 'y14',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -506,6 +518,7 @@ export const traceC5d = {
   xaxis: 'x15',
   yaxis: 'y15',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -545,6 +558,7 @@ export const traceD1d = {
   xaxis: 'x16',
   yaxis: 'y16',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -582,6 +596,7 @@ export const traceD2d = {
   xaxis: 'x17',
   yaxis: 'y17',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -619,6 +634,7 @@ export const traceD3d = {
   xaxis: 'x18',
   yaxis: 'y18',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -667,6 +683,7 @@ export const traceD5d = {
   xaxis: 'x20',
   yaxis: 'y20',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -706,6 +723,7 @@ export const traceE1d = {
   xaxis: 'x21',
   yaxis: 'y21',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -743,6 +761,7 @@ export const traceE2d = {
   xaxis: 'x22',
   yaxis: 'y22',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -780,6 +799,7 @@ export const traceE3d = {
   xaxis: 'x23',
   yaxis: 'y23',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
@@ -817,6 +837,7 @@ export const traceE4d = {
   xaxis: 'x24',
   yaxis: 'y24',
   type: 'scatter',
+  mode: 'lines',
   marker: { color: 'lightgray' }
 };
 
