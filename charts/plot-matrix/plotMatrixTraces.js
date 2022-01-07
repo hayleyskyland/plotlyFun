@@ -1,5 +1,16 @@
 // row A
 
+const y1 = [1, 2, 3, 4, 5];
+const y2 = [2, 2, 5, 4, 6];
+const y3 = [1, 1, 2, 8, 8];
+
+const avg = (i) => {
+  const sum = y1[i] + y2[i] + y3[i];
+  return sum / 3;
+}
+
+const yAvg = [avg(0), avg(1), avg(2), avg(3), avg(4)]
+
 export const traceA1 = {
   x: [1, 2, 3],
   y: [4, 5, 6],
@@ -9,13 +20,48 @@ export const traceA1 = {
   marker: { color: 'plum' },
 };
 
-export const traceA2 = {
-  x: [1, 2, 3],
-  y: [4, 5, 6],
+// export const traceA2 = {
+//   x: [1, 2, 3],
+//   y: [4, 5, 6],
+//   xaxis: 'x2',
+//   yaxis: 'y2',    
+//   type: 'scatter',
+//   marker: { color: 'lightblue' },
+// };
+
+export const traceA2a = {
+  y: y1,
   xaxis: 'x2',
-  yaxis: 'y2',    
+  yaxis: 'y2',
   type: 'scatter',
-  marker: { color: 'lightblue' },
+  mode: 'markers',
+  marker: { color: 'pink' }
+};
+
+export const traceA2b = {
+  y: y2,
+  xaxis: 'x2',
+  yaxis: 'y2',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'plum' }
+};
+
+export const traceA2c = {
+  y: y3,
+  xaxis: 'x2',
+  yaxis: 'y2',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'lightblue' }
+};
+
+export const traceA2d = {
+  y: yAvg,
+  xaxis: 'x2',
+  yaxis: 'y2',
+  type: 'scatter',
+  marker: { color: 'lightgray' }
 };
 
 export const traceA3 = {
