@@ -1,5 +1,15 @@
 export const plotMatrix = () => {
 
+  // variables
+
+  // const hideAxes = () => {
+  //   return {
+  //     showline: false,
+  //     fixedrange: true,
+  //     disabled: true
+  //   }
+  // }
+
   // row A
 
   var traceA1 = {
@@ -247,11 +257,6 @@ export const plotMatrix = () => {
   
   var layout = {
     title: 'Title for Matrix Test<br>Subtitle for Matrix Test', 
-    // legend: {
-    //   grouptitlefont: {
-    //     size: 0.2,
-    //   }
-    // },
     grid: {
       rows: 5,
       columns: 5,
@@ -265,10 +270,64 @@ export const plotMatrix = () => {
     bargap: 0.05, 
     bargroupgap: 0.2, 
     margin: {
-      // t: 50,
-      // l: 50,
       b: 65,
     },
+    legend: {
+      showLegend: false
+    },
+
+    xaxis1: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis2: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis2: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis3: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis4: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis5: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis6: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis7: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis8: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis9: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis10: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis11: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis12: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis13: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis14: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis15: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis16: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis17: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis18: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis19: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis20: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis21: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis22: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis23: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis24: { ticklen: 0, tickwidth: 0, color: 'white' },
+    xaxis25: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis1: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis2: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis3: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis4: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis5: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis6: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis7: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis8: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis9: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis10: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis11: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis12: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis13: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis14: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis15: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis16: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis17: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis18: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis19: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis20: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis21: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis22: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis23: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis24: { ticklen: 0, tickwidth: 0, color: 'white' },
+    yaxis25: { ticklen: 0, tickwidth: 0, color: 'white' },
+    
   };
 
   // invoke
@@ -276,7 +335,10 @@ export const plotMatrix = () => {
   Plotly.newPlot('matrix-2', data, layout);
 }
 
-
+// to do
+  // rm axis labels from cells
+  // add multiple lines in scatter cells
+  // add multople bars in scatter cells
 
 
 // draft of multiple line scatters

@@ -5,8 +5,8 @@ import { scatter } from './scatter.js';
 // import { plotMatrixTest } from './plotMatrixTest.js';
 import { plotMatrix } from './plotMatrix.js';
 
-histogram()
-scatter()
+// histogram()
+// scatter()
 // d3MatrixTest()
 // d3Matrix()
 // plotMatrixTest()
