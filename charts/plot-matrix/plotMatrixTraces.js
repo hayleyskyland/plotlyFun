@@ -657,41 +657,155 @@ export const traceD5d = {
 
 // row E
 
-export const traceE1 = {
-  x: [1, 2, 3],
-  y: [4, 5, 6],
+// e1
+
+export const traceE1a = {
+  y: y1,
   xaxis: 'x21',
-  yaxis: 'y21',    
+  yaxis: 'y21',
   type: 'scatter',
-  marker: { color: 'pink' },
+  mode: 'markers',
+  marker: { color: 'pink' }
 };
 
-export const traceE2 = {
-  x: [20, 30, 40],
-  y: [50, 60, 70],
+export const traceE1b = {
+  y: y2,
+  xaxis: 'x21',
+  yaxis: 'y21',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'plum' }
+};
+
+export const traceE1c = {
+  y: y3,
+  xaxis: 'x21',
+  yaxis: 'y21',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'lightblue' }
+};
+
+export const traceE1d = {
+  y: yAvg,
+  xaxis: 'x21',
+  yaxis: 'y21',
+  type: 'scatter',
+  marker: { color: 'lightgray' }
+};
+
+// e2
+
+export const traceE2a = {
+  y: y1,
   xaxis: 'x22',
   yaxis: 'y22',
   type: 'scatter',
-  marker: { color: 'plum' },
+  mode: 'markers',
+  marker: { color: 'pink' }
 };
 
-export const traceE3 = {
-  x: [20, 30, 40],
-  y: [50, 60, 70],
+export const traceE2b = {
+  y: y2,
+  xaxis: 'x22',
+  yaxis: 'y22',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'plum' }
+};
+
+export const traceE2c = {
+  y: y3,
+  xaxis: 'x22',
+  yaxis: 'y22',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'lightblue' }
+};
+
+export const traceE2d = {
+  y: yAvg,
+  xaxis: 'x22',
+  yaxis: 'y22',
+  type: 'scatter',
+  marker: { color: 'lightgray' }
+};
+
+// e3
+
+export const traceE3a = {
+  y: y1,
   xaxis: 'x23',
   yaxis: 'y23',
   type: 'scatter',
-  marker: { color: 'lightblue' },
+  mode: 'markers',
+  marker: { color: 'pink' }
 };
 
-export const traceE4 = {
-  x: [20, 30, 40],
-  y: [50, 60, 70],
+export const traceE3b = {
+  y: y2,
+  xaxis: 'x23',
+  yaxis: 'y23',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'plum' }
+};
+
+export const traceE3c = {
+  y: y3,
+  xaxis: 'x23',
+  yaxis: 'y23',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'lightblue' }
+};
+
+export const traceE3d = {
+  y: yAvg,
+  xaxis: 'x23',
+  yaxis: 'y23',
+  type: 'scatter',
+  marker: { color: 'lightgray' }
+};
+
+// e4
+
+export const traceE4a = {
+  y: y1,
   xaxis: 'x24',
   yaxis: 'y24',
   type: 'scatter',
-  marker: { color: 'lightgray' },
+  mode: 'markers',
+  marker: { color: 'pink' }
 };
+
+export const traceE4b = {
+  y: y2,
+  xaxis: 'x24',
+  yaxis: 'y24',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'plum' }
+};
+
+export const traceE4c = {
+  y: y3,
+  xaxis: 'x24',
+  yaxis: 'y24',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'lightblue' }
+};
+
+export const traceE4d = {
+  y: yAvg,
+  xaxis: 'x24',
+  yaxis: 'y24',
+  type: 'scatter',
+  marker: { color: 'lightgray' }
+};
+
+// e5
 
 export const traceE5 = {
   x: [20, 30, 40],

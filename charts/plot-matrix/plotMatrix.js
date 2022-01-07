@@ -25,7 +25,11 @@ import {
   traceD4,
   traceD5a, traceD5b, traceD5c, traceD5d,
 
-  traceE1, traceE2, traceE3, traceE4, traceE5
+  traceE1a, traceE1b, traceE1c, traceE1d,
+  traceE2a, traceE2b, traceE2c, traceE2d,
+  traceE3a, traceE3b, traceE3c, traceE3d,
+  traceE4a, traceE4b, traceE4c, traceE4d,
+  traceE5
 } from './plotMatrixTraces.js';
 
 export const plotMatrix = () => {
@@ -55,7 +59,11 @@ export const plotMatrix = () => {
     traceD4,
     traceD5a, traceD5b, traceD5c, traceD5d,
 
-    traceE1, traceE2, traceE3, traceE4, traceE5
+    traceE1a, traceE1b, traceE1c, traceE1d,
+    traceE2a, traceE2b, traceE2c, traceE2d,
+    traceE3a, traceE3b, traceE3c, traceE3d,
+    traceE4a, traceE4b, traceE4c, traceE4d,
+    traceE5
   ];
 
   Plotly.newPlot('matrix-2', data, plotMatrixLayout);
