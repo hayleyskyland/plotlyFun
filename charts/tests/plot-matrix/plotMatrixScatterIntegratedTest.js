@@ -1,5 +1,16 @@
 export const plotMatrixScatterIntegratedTest = () => {
 
+  const y1 = [1, 2, 3, 4, 5];
+  const y2 = [2, 2, 5, 4, 6];
+  const y3 = [1, 1, 2, 8, 8];
+
+  const avg = (i) => {
+    const sum = y1[i] + y2[i] + y3[i];
+    return sum / 3;
+  }
+
+  const yAvg = [avg(0), avg(1), avg(2), avg(3), avg(4)]
+  
   const plotMatrixLayout2 = {
     title: '<b>Title for Scatter Integration Test</b><br>Subtitle Hooray', 
     width: 500,
@@ -34,26 +45,41 @@ export const plotMatrixScatterIntegratedTest = () => {
 
   const trace1a = {
     // x: [0, 1, 2],
-    y: [1, 2, 3, 4, 5],
+    y: y1,
     xaxis: 'x1',
     yaxis: 'y1',
-    type: 'scatter'
+    type: 'scatter',
+    mode: 'markers',
+    marker: { color: 'pink' }
   };
   
   const trace1b = {
     // x: [3, 4, 5],
-    y: [2, 2, 5, 4, 6],
+    y: y2,
     xaxis: 'x1',
     yaxis: 'y1',
-    type: 'scatter'
+    type: 'scatter',
+    mode: 'markers',
+    marker: { color: 'plum' }
   };
   
   const trace1c = {
     // x: [3, 4, 5],
-    y: [1, 1, 2, 8, 8],
+    y: y3,
     xaxis: 'x1',
     yaxis: 'y1',
-    type: 'scatter'
+    type: 'scatter',
+    mode: 'markers',
+    marker: { color: 'lightblue' }
+  };
+
+  const trace1d = {
+    // x: [3, 4, 5],
+    y: yAvg,
+    xaxis: 'x1',
+    yaxis: 'y1',
+    type: 'scatter',
+    marker: { color: 'lightgray' }
   };
 
   const trace2 = {
@@ -84,7 +110,7 @@ export const plotMatrixScatterIntegratedTest = () => {
   };
     
   const data = [
-    trace1a, trace1b, trace1c, trace2, trace3, trace4
+    trace1a, trace1b, trace1c, trace1d, trace2, trace3, trace4
   ];
   
   
