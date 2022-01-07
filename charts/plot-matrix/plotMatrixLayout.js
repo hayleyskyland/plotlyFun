@@ -1,6 +1,6 @@
 // const hideAxes = { ticklen: 0, tickwidth: 0, color: 'white' }
 
-export var plotMatrixLayout = {
+export const plotMatrixLayout = {
   title: 'Title for Matrix Test<br>Subtitle for Matrix Test', 
   width: 1034,
   height: 1034,

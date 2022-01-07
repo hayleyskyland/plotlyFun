@@ -1,6 +1,6 @@
 // row A
 
-export var traceA1 = {
+export const traceA1 = {
   x: [1, 2, 3],
   y: [4, 5, 6],
   xaxis: 'x1',
@@ -9,7 +9,7 @@ export var traceA1 = {
   marker: { color: 'plum' },
 };
 
-export var traceA2 = {
+export const traceA2 = {
   x: [1, 2, 3],
   y: [4, 5, 6],
   xaxis: 'x2',
@@ -18,7 +18,7 @@ export var traceA2 = {
   marker: { color: 'lightblue' },
 };
 
-export var traceA3 = {
+export const traceA3 = {
   x: [20, 30, 40],
   y: [50, 60, 70],
   xaxis: 'x3',
@@ -27,7 +27,7 @@ export var traceA3 = {
   marker: { color: 'lightgray' },
 };
 
-export var traceA4 = {
+export const traceA4 = {
   x: [20, 30, 40],
   y: [50, 60, 70],
   xaxis: 'x4',
@@ -36,7 +36,7 @@ export var traceA4 = {
   marker: { color: '#F5DEB3' },
 };
 
-export var traceA5 = {
+export const traceA5 = {
   x: [20, 30, 40],
   y: [50, 60, 70],
   xaxis: 'x5',
@@ -47,7 +47,7 @@ export var traceA5 = {
 
 // row B
 
-export var traceB1 = {
+export const traceB1 = {
   x: [300, 400, 500],
   y: [600, 700, 800],
   xaxis: 'x6',
@@ -56,7 +56,7 @@ export var traceB1 = {
   marker: { color: 'lightblue' },
 };
 
-export var traceB2 = {
+export const traceB2 = {
   x: [4000, 5000, 6000],
   y: [7000, 8000, 9000],
   xaxis: 'x7',
@@ -65,7 +65,7 @@ export var traceB2 = {
   marker: { color: 'lightgray' },
 };
 
-export var traceB3 = {
+export const traceB3 = {
   x: [4000, 5000, 6000],
   y: [7000, 8000, 9000],
   xaxis: 'x8',
@@ -74,7 +74,7 @@ export var traceB3 = {
   marker: { color: '#F5DEB3' },
 };
 
-export var traceB4 = {
+export const traceB4 = {
   x: [4000, 5000, 6000],
   y: [7000, 8000, 9000],
   xaxis: 'x9',
@@ -83,7 +83,7 @@ export var traceB4 = {
   marker: { color: 'pink' },
 };
 
-export var traceB5 = {
+export const traceB5 = {
   x: [4000, 5000, 6000],
   y: [7000, 8000, 9000],
   xaxis: 'x10',
@@ -94,7 +94,7 @@ export var traceB5 = {
 
 // row C
 
-export var traceC1 = {
+export const traceC1 = {
   x: [1, 2, 3],
   y: [4, 5, 6],
   xaxis: 'x11',
@@ -103,7 +103,7 @@ export var traceC1 = {
   marker: { color: 'lightgray' },
 };
 
-export var traceC2 = {
+export const traceC2 = {
   x: [20, 30, 40],
   y: [50, 60, 70],
   xaxis: 'x12',
@@ -112,7 +112,7 @@ export var traceC2 = {
   marker: { color: '#F5DEB3' },
 };
 
-export var traceC3 = {
+export const traceC3 = {
   x: [20, 30, 40],
   y: [50, 60, 70],
   xaxis: 'x13',
@@ -121,7 +121,7 @@ export var traceC3 = {
   marker: { color: 'pink' },
 };
 
-export var traceC4 = {
+export const traceC4 = {
   x: [20, 30, 40],
   y: [50, 60, 70],
   xaxis: 'x14',
@@ -130,7 +130,7 @@ export var traceC4 = {
   marker: { color: 'plum' },
 };
 
-export var traceC5 = {
+export const traceC5 = {
   x: [20, 30, 40],
   y: [50, 60, 70],
   xaxis: 'x15',
@@ -141,7 +141,7 @@ export var traceC5 = {
 
 // row D
 
-export var traceD1 = {
+export const traceD1 = {
   x: [1, 2, 3],
   y: [4, 5, 6],
   xaxis: 'x16',
@@ -150,7 +150,7 @@ export var traceD1 = {
   marker: { color: '#F5DEB3' },
 };
 
-export var traceD2 = {
+export const traceD2 = {
   x: [20, 30, 40],
   y: [50, 60, 70],
   xaxis: 'x17',
@@ -159,7 +159,7 @@ export var traceD2 = {
   marker: { color: 'pink' },
 };
 
-export var traceD3 = {
+export const traceD3 = {
   x: [20, 30, 40],
   y: [50, 60, 70],
   xaxis: 'x18',
@@ -168,7 +168,7 @@ export var traceD3 = {
   marker: { color: 'plum' },
 };
 
-export var traceD4 = {
+export const traceD4 = {
   x: [20, 30, 40],
   y: [50, 60, 70],
   xaxis: 'x19',
@@ -177,7 +177,7 @@ export var traceD4 = {
   marker: { color: 'lightblue' },
 };
 
-export var traceD5 = {
+export const traceD5 = {
   x: [20, 30, 40],
   y: [50, 60, 70],
   xaxis: 'x20',
@@ -188,7 +188,7 @@ export var traceD5 = {
 
 // row E
 
-export var traceE1 = {
+export const traceE1 = {
   x: [1, 2, 3],
   y: [4, 5, 6],
   xaxis: 'x21',
@@ -197,7 +197,7 @@ export var traceE1 = {
   marker: { color: 'pink' },
 };
 
-export var traceE2 = {
+export const traceE2 = {
   x: [20, 30, 40],
   y: [50, 60, 70],
   xaxis: 'x22',
@@ -206,7 +206,7 @@ export var traceE2 = {
   marker: { color: 'plum' },
 };
 
-export var traceE3 = {
+export const traceE3 = {
   x: [20, 30, 40],
   y: [50, 60, 70],
   xaxis: 'x23',
@@ -215,7 +215,7 @@ export var traceE3 = {
   marker: { color: 'lightblue' },
 };
 
-export var traceE4 = {
+export const traceE4 = {
   x: [20, 30, 40],
   y: [50, 60, 70],
   xaxis: 'x24',
@@ -224,7 +224,7 @@ export var traceE4 = {
   marker: { color: 'lightgray' },
 };
 
-export var traceE5 = {
+export const traceE5 = {
   x: [20, 30, 40],
   y: [50, 60, 70],
   xaxis: 'x25',

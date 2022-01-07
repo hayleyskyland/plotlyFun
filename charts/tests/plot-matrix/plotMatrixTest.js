@@ -1,12 +1,12 @@
 export const plotMatrixTest = () => {
 
-  var trace1 = {
+  const trace1 = {
     x: [1, 2, 3],
     y: [4, 5, 6],
     type: 'scatter'
   };
   
-  var trace2 = {
+  const trace2 = {
     x: [20, 30, 40],
     y: [50, 60, 70],
     xaxis: 'x2',
@@ -14,7 +14,7 @@ export const plotMatrixTest = () => {
     type: 'scatter'
   };
   
-  var trace3 = {
+  const trace3 = {
     x: [300, 400, 500],
     y: [600, 700, 800],
     xaxis: 'x3',
@@ -22,7 +22,7 @@ export const plotMatrixTest = () => {
     type: 'scatter'
   };
   
-  var trace4 = {
+  const trace4 = {
     x: [4000, 5000, 6000],
     y: [7000, 8000, 9000],
     xaxis: 'x4',
@@ -30,9 +30,9 @@ export const plotMatrixTest = () => {
     type: 'scatter'
   };
   
-  var data = [trace1, trace2, trace3, trace4];
+  const data = [trace1, trace2, trace3, trace4];
   
-  var layout = {
+  const layout = {
     grid: {rows: 2, columns: 2, pattern: 'independent'},
   };
   
