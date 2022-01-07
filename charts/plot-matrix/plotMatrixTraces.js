@@ -11,6 +11,8 @@ const avg = (i) => {
 
 const yAvg = [avg(0), avg(1), avg(2), avg(3), avg(4)]
 
+// A1
+
 export const traceA1 = {
   x: [1, 2, 3],
   y: [4, 5, 6],
@@ -20,14 +22,7 @@ export const traceA1 = {
   marker: { color: 'plum' },
 };
 
-// export const traceA2 = {
-//   x: [1, 2, 3],
-//   y: [4, 5, 6],
-//   xaxis: 'x2',
-//   yaxis: 'y2',    
-//   type: 'scatter',
-//   marker: { color: 'lightblue' },
-// };
+// A2
 
 export const traceA2a = {
   y: y1,
@@ -64,14 +59,44 @@ export const traceA2d = {
   marker: { color: 'lightgray' }
 };
 
-export const traceA3 = {
-  x: [20, 30, 40],
-  y: [50, 60, 70],
+// A3
+
+export const traceA3a = {
+  y: y1,
   xaxis: 'x3',
   yaxis: 'y3',
   type: 'scatter',
-  marker: { color: 'lightgray' },
+  mode: 'markers',
+  marker: { color: 'pink' }
 };
+
+export const traceA3b = {
+  y: y2,
+  xaxis: 'x3',
+  yaxis: 'y3',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'plum' }
+};
+
+export const traceA3c = {
+  y: y3,
+  xaxis: 'x3',
+  yaxis: 'y3',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'lightblue' }
+};
+
+export const traceA3d = {
+  y: yAvg,
+  xaxis: 'x3',
+  yaxis: 'y3',
+  type: 'scatter',
+  marker: { color: 'lightgray' }
+};
+
+// A4
 
 export const traceA4 = {
   x: [20, 30, 40],
