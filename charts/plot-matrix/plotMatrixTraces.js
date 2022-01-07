@@ -9,7 +9,22 @@ const avg = (i) => {
   return sum / 3;
 }
 
-const yAvg = [avg(0), avg(1), avg(2), avg(3), avg(4)]
+const mid = () => {
+  const sum = avg(0) + avg(4)
+  return sum / 2;
+}
+
+const midA = () => {
+  const sum = avg(0) + mid()
+  return sum / 2;
+}
+
+const midB = () => {
+  const sum = mid() + avg(4)
+  return sum / 2;
+}
+
+const yAvg = [avg(0), midA(), mid(), midB(), avg(4)]
 
 // row A
 
