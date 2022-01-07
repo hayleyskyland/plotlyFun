@@ -30,52 +30,37 @@ export const plotMatrixScatterIntegratedTest = () => {
     yaxis5: { ticklen: 0, tickwidth: 0, color: 'white' },
     yaxis6: { ticklen: 0, tickwidth: 0, color: 'white' },
     
-    
   };
-  
-  // const trace1 = {
-  //   x: [1, 2, 3],
-  //   y: [4, 5, 6],
-  //   xaxis: 'x1',
-  //   yaxis: 'y1',    
-  //   type: 'scatter',
-  //   marker: { color: 'plum' },
-  // };
-
-
 
   const trace1a = {
-    x: [0, 1, 2],
-    y: [10, 11, 12],
+    // x: [0, 1, 2],
+    y: [1, 2, 3, 4, 5],
     xaxis: 'x1',
     yaxis: 'y1',
     type: 'scatter'
   };
   
   const trace1b = {
-    x: [2, 3, 4],
-    y: [100, 110, 120],
+    // x: [3, 4, 5],
+    y: [2, 2, 5, 4, 6],
     xaxis: 'x1',
-    yaxis: 'y2',
+    yaxis: 'y1',
     type: 'scatter'
   };
   
   const trace1c = {
-    x: [3, 4, 5],
-    y: [1000, 1100, 1200],
+    // x: [3, 4, 5],
+    y: [1, 1, 2, 8, 8],
     xaxis: 'x1',
-    yaxis: 'y3',
+    yaxis: 'y1',
     type: 'scatter'
   };
 
-
-
-  
   const trace2 = {
     x: [1, 2, 3],
     y: [4, 5, 6],
     xaxis: 'x2',
-    yaxis: 'y4',    
+    yaxis: 'y2',    
     type: 'histogram',
     marker: { color: 'lightblue' },
   };
@@ -84,7 +69,7 @@ export const plotMatrixScatterIntegratedTest = () => {
     x: [20, 30, 40],
     y: [50, 60, 70],
     xaxis: 'x3',
-    yaxis: 'y5',
+    yaxis: 'y3',
     type: 'histogram',
     marker: { color: 'lightgray' },
   };
@@ -93,7 +78,7 @@ export const plotMatrixScatterIntegratedTest = () => {
     x: [20, 30, 40],
     y: [50, 60, 70],
     xaxis: 'x4',
-    yaxis: 'y6',
+    yaxis: 'y4',
     type: 'histogram',
     marker: { color: '#F5DEB3' },
   };
