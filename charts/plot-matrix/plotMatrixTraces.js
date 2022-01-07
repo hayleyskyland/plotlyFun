@@ -16,8 +16,8 @@ const yAvg = [avg(0), avg(1), avg(2), avg(3), avg(4)]
 // A1
 
 export const traceA1 = {
-  x: [1, 2, 3],
-  y: [4, 5, 6],
+  x: [1, 2, 3, 4, 5],
+  y: [5, 7, 5, 3, 6],
   xaxis: 'x1',
   yaxis: 'y1',    
   type: 'histogram',
@@ -214,8 +214,8 @@ export const traceB1d = {
 // B2
 
 export const traceB2 = {
-  x: [4000, 5000, 6000],
-  y: [7000, 8000, 9000],
+  x: [20, 30, 40, 20, 10],
+  y: [50, 60, 70, 5, 50],
   xaxis: 'x7',
   yaxis: 'y7',
   type: 'histogram',
@@ -412,8 +412,8 @@ export const traceC2d = {
 // C3
 
 export const traceC3 = {
-  x: [20, 30, 40],
-  y: [50, 60, 70],
+  x: [20, 30, 40, 50, 60],
+  y: [50, 60, 70, 80, 90],
   xaxis: 'x13',
   yaxis: 'y13',
   type: 'histogram',
@@ -610,8 +610,8 @@ export const traceD3d = {
 // d4
 
 export const traceD4 = {
-  x: [20, 30, 40],
-  y: [50, 60, 70],
+  x: [20, 30, 40, 20, 10],
+  y: [50, 60, 70, 5, 50],
   xaxis: 'x19',
   yaxis: 'y19',
   type: 'histogram',
@@ -808,8 +808,8 @@ export const traceE4d = {
 // e5
 
 export const traceE5 = {
-  x: [20, 30, 40],
-  y: [50, 60, 70],
+  x: [20, 30, 40, 10, 10],
+  y: [50, 60, 70, 10, 20],
   xaxis: 'x25',
   yaxis: 'y25',
   type: 'histogram',
