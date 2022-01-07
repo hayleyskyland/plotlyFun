@@ -240,7 +240,7 @@ export const traceB2 = {
   xaxis: 'x7',
   yaxis: 'y7',
   type: 'histogram',
-  marker: { color: 'lightgray' },
+  marker: { color: 'pink' },
 };
 
 // B3
@@ -443,7 +443,7 @@ export const traceC3 = {
   xaxis: 'x13',
   yaxis: 'y13',
   type: 'histogram',
-  marker: { color: 'pink' },
+  marker: { color: 'lightblue' },
 };
 
 // C4
@@ -646,7 +646,7 @@ export const traceD4 = {
   xaxis: 'x19',
   yaxis: 'y19',
   type: 'histogram',
-  marker: { color: 'lightblue' },
+  marker: { color: 'pink' },
 };
 
 // d5
@@ -849,5 +849,5 @@ export const traceE5 = {
   xaxis: 'x25',
   yaxis: 'y25',
   type: 'histogram',
-  marker: { color: '#F5DEB3' },
+  marker: { color: 'plum' },
 };

@@ -25,7 +25,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -37,7 +37,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -49,7 +49,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -61,7 +61,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -73,7 +73,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -85,7 +85,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -97,7 +97,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -109,7 +109,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -121,7 +121,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -133,7 +133,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -145,7 +145,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -157,7 +157,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -169,7 +169,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -181,7 +181,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -193,7 +193,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -205,7 +205,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -217,7 +217,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -229,7 +229,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -241,7 +241,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -253,7 +253,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -265,7 +265,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -277,7 +277,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -289,7 +289,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -301,7 +301,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -313,7 +313,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -325,7 +325,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -337,7 +337,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -347,7 +347,7 @@ export const plotMatrixLayout = {
     ticklen: 0,
     tickwidth: 0,
     ticks: 'outside',
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     ticks: false,
     showline: true,
     color: 'white',
@@ -361,7 +361,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -373,7 +373,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -385,7 +385,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -397,7 +397,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -409,7 +409,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -421,7 +421,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -433,7 +433,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -445,7 +445,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -457,7 +457,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -469,7 +469,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -481,7 +481,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -493,7 +493,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -505,7 +505,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -517,7 +517,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -529,7 +529,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -541,7 +541,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -553,7 +553,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -565,7 +565,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -577,7 +577,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -589,7 +589,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -601,7 +601,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -613,7 +613,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
@@ -625,7 +625,7 @@ export const plotMatrixLayout = {
     color: 'white',
     ticks: 'outside',
     showline: true,
-    linecolor: 'lightgray',
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
     showticklabels: false
