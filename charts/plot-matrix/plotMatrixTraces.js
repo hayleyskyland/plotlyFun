@@ -641,8 +641,8 @@ export const traceD3d = {
 // d4
 
 export const traceD4 = {
-  x: [20, 30, 40, 20, 10],
-  y: [50, 60, 70, 5, 50],
+  x: [20, 30, 40, 30, 10],
+  y: [50, 60, 70, 60, 10],
   xaxis: 'x19',
   yaxis: 'y19',
   type: 'histogram',
