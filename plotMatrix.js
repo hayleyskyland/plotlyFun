@@ -272,9 +272,8 @@ export const plotMatrix = () => {
     margin: {
       b: 65,
     },
-    legend: {
-      showLegend: false
-    },
+    showlegend: false,
+    
 
     xaxis1: { ticklen: 0, tickwidth: 0, color: 'white' },
     xaxis2: { ticklen: 0, tickwidth: 0, color: 'white' },
