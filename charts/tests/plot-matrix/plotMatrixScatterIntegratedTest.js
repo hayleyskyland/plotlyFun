@@ -6,6 +6,8 @@ export const plotMatrixScatterIntegratedTest = () => {
     height: 500,
     margin: { b: 65 },
     showlegend: false,
+    bargap: 0.05, 
+    bargroupgap: 0.2, 
     
     grid: {
       rows: 2,
@@ -41,7 +43,7 @@ export const plotMatrixScatterIntegratedTest = () => {
     y: [4, 5, 6],
     xaxis: 'x2',
     yaxis: 'y2',    
-    type: 'scatter',
+    type: 'histogram',
     marker: { color: 'lightblue' },
   };
   
@@ -50,7 +52,7 @@ export const plotMatrixScatterIntegratedTest = () => {
     y: [50, 60, 70],
     xaxis: 'x3',
     yaxis: 'y3',
-    type: 'scatter',
+    type: 'histogram',
     marker: { color: 'lightgray' },
   };
   
@@ -59,7 +61,7 @@ export const plotMatrixScatterIntegratedTest = () => {
     y: [50, 60, 70],
     xaxis: 'x4',
     yaxis: 'y4',
-    type: 'scatter',
+    type: 'histogram',
     marker: { color: '#F5DEB3' },
   };
     
