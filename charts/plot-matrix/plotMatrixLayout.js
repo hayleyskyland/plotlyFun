@@ -13,8 +13,8 @@ export var plotMatrixLayout = {
     rows: 5,
     columns: 5,
     pattern: 'independent',
-    xgap: .325,
-    ygap: .325,
+    xgap: .1,
+    ygap: .1,
   },
 
   xaxis1: { ticklen: 0, tickwidth: 0, color: 'white' },
