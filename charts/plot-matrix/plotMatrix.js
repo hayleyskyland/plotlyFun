@@ -13,9 +13,17 @@ import {
   traceB4a, traceB4b, traceB4c, traceB4d,
   traceB5a, traceB5b, traceB5c, traceB5d,
 
-  traceC1, traceC2, traceC3, traceC4, traceC5,
+  traceC1a, traceC1b, traceC1c, traceC1d,
+  traceC2a, traceC2b, traceC2c, traceC2d,
+  traceC3,
+  traceC4a, traceC4b, traceC4c, traceC4d,
+  traceC5a, traceC5b, traceC5c, traceC5d,
 
-  traceD1, traceD2, traceD3, traceD4, traceD5,
+  traceD1a, traceD1b, traceD1c, traceD1d,
+  traceD2a, traceD2b, traceD2c, traceD2d,
+  traceD3a, traceD3b, traceD3c, traceD3d,
+  traceD4,
+  traceD5a, traceD5b, traceD5c, traceD5d,
 
   traceE1, traceE2, traceE3, traceE4, traceE5
 } from './plotMatrixTraces.js';
@@ -35,9 +43,17 @@ export const plotMatrix = () => {
     traceB4a, traceB4b, traceB4c, traceB4d,
     traceB5a, traceB5b, traceB5c, traceB5d,
 
-    traceC1, traceC2, traceC3, traceC4, traceC5,
+    traceC1a, traceC1b, traceC1c, traceC1d,
+    traceC2a, traceC2b, traceC2c, traceC2d,
+    traceC3,
+    traceC4a, traceC4b, traceC4c, traceC4d,
+    traceC5a, traceC5b, traceC5c, traceC5d,
 
-    traceD1, traceD2, traceD3, traceD4, traceD5,
+    traceD1a, traceD1b, traceD1c, traceD1d,
+    traceD2a, traceD2b, traceD2c, traceD2d,
+    traceD3a, traceD3b, traceD3c, traceD3d,
+    traceD4,
+    traceD5a, traceD5b, traceD5c, traceD5d,
 
     traceE1, traceE2, traceE3, traceE4, traceE5
   ];
