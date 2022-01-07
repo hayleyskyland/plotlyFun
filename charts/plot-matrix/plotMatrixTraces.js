@@ -11,6 +11,8 @@ const avg = (i) => {
 
 const yAvg = [avg(0), avg(1), avg(2), avg(3), avg(4)]
 
+// row A
+
 // A1
 
 export const traceA1 = {
@@ -98,34 +100,118 @@ export const traceA3d = {
 
 // A4
 
-export const traceA4 = {
-  x: [20, 30, 40],
-  y: [50, 60, 70],
+export const traceA4a = {
+  y: y1,
   xaxis: 'x4',
   yaxis: 'y4',
   type: 'scatter',
-  marker: { color: '#F5DEB3' },
+  mode: 'markers',
+  marker: { color: 'pink' }
 };
 
-export const traceA5 = {
-  x: [20, 30, 40],
-  y: [50, 60, 70],
+export const traceA4b = {
+  y: y2,
+  xaxis: 'x4',
+  yaxis: 'y4',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'plum' }
+};
+
+export const traceA4c = {
+  y: y3,
+  xaxis: 'x4',
+  yaxis: 'y4',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'lightblue' }
+};
+
+export const traceA4d = {
+  y: yAvg,
+  xaxis: 'x4',
+  yaxis: 'y4',
+  type: 'scatter',
+  marker: { color: 'lightgray' }
+};
+
+// A5
+
+export const traceA5a = {
+  y: y1,
   xaxis: 'x5',
   yaxis: 'y5',
   type: 'scatter',
-  marker: { color: 'pink' },
-};  
+  mode: 'markers',
+  marker: { color: 'pink' }
+};
+
+export const traceA5b = {
+  y: y2,
+  xaxis: 'x5',
+  yaxis: 'y5',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'plum' }
+};
+
+export const traceA5c = {
+  y: y3,
+  xaxis: 'x5',
+  yaxis: 'y5',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'lightblue' }
+};
+
+export const traceA5d = {
+  y: yAvg,
+  xaxis: 'x5',
+  yaxis: 'y5',
+  type: 'scatter',
+  marker: { color: 'lightgray' }
+};
 
 // row B
 
-export const traceB1 = {
-  x: [300, 400, 500],
-  y: [600, 700, 800],
+// B1
+
+export const traceB1a = {
+  y: y1,
   xaxis: 'x6',
   yaxis: 'y6',
   type: 'scatter',
-  marker: { color: 'lightblue' },
+  mode: 'markers',
+  marker: { color: 'pink' }
 };
+
+export const traceB1b = {
+  y: y2,
+  xaxis: 'x6',
+  yaxis: 'y6',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'plum' }
+};
+
+export const traceB1c = {
+  y: y3,
+  xaxis: 'x6',
+  yaxis: 'y6',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'lightblue' }
+};
+
+export const traceB1d = {
+  y: yAvg,
+  xaxis: 'x6',
+  yaxis: 'y6',
+  type: 'scatter',
+  marker: { color: 'lightgray' }
+};
+
+// B2
 
 export const traceB2 = {
   x: [4000, 5000, 6000],
@@ -136,31 +222,115 @@ export const traceB2 = {
   marker: { color: 'lightgray' },
 };
 
-export const traceB3 = {
-  x: [4000, 5000, 6000],
-  y: [7000, 8000, 9000],
+// B3
+
+export const traceB3a = {
+  y: y1,
   xaxis: 'x8',
   yaxis: 'y8',
   type: 'scatter',
-  marker: { color: '#F5DEB3' },
+  mode: 'markers',
+  marker: { color: 'pink' }
 };
 
-export const traceB4 = {
-  x: [4000, 5000, 6000],
-  y: [7000, 8000, 9000],
+export const traceB3b = {
+  y: y2,
+  xaxis: 'x8',
+  yaxis: 'y8',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'plum' }
+};
+
+export const traceB3c = {
+  y: y3,
+  xaxis: 'x8',
+  yaxis: 'y8',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'lightblue' }
+};
+
+export const traceB3d = {
+  y: yAvg,
+  xaxis: 'x8',
+  yaxis: 'y8',
+  type: 'scatter',
+  marker: { color: 'lightgray' }
+};
+
+// B4
+
+export const traceB4a = {
+  y: y1,
   xaxis: 'x9',
   yaxis: 'y9',
   type: 'scatter',
-  marker: { color: 'pink' },
+  mode: 'markers',
+  marker: { color: 'pink' }
 };
 
-export const traceB5 = {
-  x: [4000, 5000, 6000],
-  y: [7000, 8000, 9000],
+export const traceB4b = {
+  y: y2,
+  xaxis: 'x9',
+  yaxis: 'y9',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'plum' }
+};
+
+export const traceB4c = {
+  y: y3,
+  xaxis: 'x9',
+  yaxis: 'y9',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'lightblue' }
+};
+
+export const traceB4d = {
+  y: yAvg,
+  xaxis: 'x9',
+  yaxis: 'y9',
+  type: 'scatter',
+  marker: { color: 'lightgray' }
+};
+
+// B5
+
+export const traceB5a = {
+  y: y1,
   xaxis: 'x10',
   yaxis: 'y10',
   type: 'scatter',
-  marker: { color: 'plum' },
+  mode: 'markers',
+  marker: { color: 'pink' }
+};
+
+export const traceB5b = {
+  y: y2,
+  xaxis: 'x10',
+  yaxis: 'y10',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'plum' }
+};
+
+export const traceB5c = {
+  y: y3,
+  xaxis: 'x10',
+  yaxis: 'y10',
+  type: 'scatter',
+  mode: 'markers',
+  marker: { color: 'lightblue' }
+};
+
+export const traceB5d = {
+  y: yAvg,
+  xaxis: 'x10',
+  yaxis: 'y10',
+  type: 'scatter',
+  marker: { color: 'lightgray' }
 };
 
 // row C
