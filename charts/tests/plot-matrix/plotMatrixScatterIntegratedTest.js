@@ -43,52 +43,48 @@ export const plotMatrixScatterIntegratedTest = () => {
     
   };
 
-  const trace1a = {
-    // x: [0, 1, 2],
-    y: y1,
+  const trace1 = {
+    x: [1, 2, 3],
+    y: [4, 5, 6],
     xaxis: 'x1',
-    yaxis: 'y1',
+    yaxis: 'y1',    
+    type: 'histogram',
+    marker: { color: 'lightblue' },
+  };
+
+  const trace2a = {
+    y: y1,
+    xaxis: 'x2',
+    yaxis: 'y2',
     type: 'scatter',
     mode: 'markers',
     marker: { color: 'pink' }
   };
   
-  const trace1b = {
-    // x: [3, 4, 5],
+  const trace2b = {
     y: y2,
-    xaxis: 'x1',
-    yaxis: 'y1',
+    xaxis: 'x2',
+    yaxis: 'y2',
     type: 'scatter',
     mode: 'markers',
     marker: { color: 'plum' }
   };
   
-  const trace1c = {
-    // x: [3, 4, 5],
+  const trace2c = {
     y: y3,
-    xaxis: 'x1',
-    yaxis: 'y1',
+    xaxis: 'x2',
+    yaxis: 'y2',
     type: 'scatter',
     mode: 'markers',
     marker: { color: 'lightblue' }
   };
 
-  const trace1d = {
-    // x: [3, 4, 5],
+  const trace2d = {
     y: yAvg,
-    xaxis: 'x1',
-    yaxis: 'y1',
+    xaxis: 'x2',
+    yaxis: 'y2',
     type: 'scatter',
     marker: { color: 'lightgray' }
-  };
-
-  const trace2 = {
-    x: [1, 2, 3],
-    y: [4, 5, 6],
-    xaxis: 'x2',
-    yaxis: 'y2',    
-    type: 'histogram',
-    marker: { color: 'lightblue' },
   };
   
   const trace3 = {
@@ -110,9 +106,8 @@ export const plotMatrixScatterIntegratedTest = () => {
   };
     
   const data = [
-    trace1a, trace1b, trace1c, trace1d, trace2, trace3, trace4
+    trace1, trace2a, trace2b, trace2c, trace2d, trace3, trace4
   ];
-  
   
   Plotly.newPlot('matrix-2', data, plotMatrixLayout2);
 }
