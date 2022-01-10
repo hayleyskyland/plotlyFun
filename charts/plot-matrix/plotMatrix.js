@@ -2,9 +2,8 @@ import { plotMatrixLayout } from './plotMatrixLayout.js';
 
 import {
   traceA1,
-  // traceA2a, traceA2b, traceA2c, traceA2d,
   traceA2,
-  traceA3a, traceA3b, traceA3c, traceA3d,
+  traceA3,
   traceA4a, traceA4b, traceA4c, traceA4d,
   traceA5a, traceA5b, traceA5c, traceA5d,
 
@@ -37,9 +36,8 @@ export const plotMatrix = () => {
   
   var data = [
     traceA1,
-    // traceA2a, traceA2b, traceA2c, traceA2d,
     traceA2,
-    traceA3a, traceA3b, traceA3c, traceA3d,
+    traceA3,
     traceA4a, traceA4b, traceA4c, traceA4d,
     traceA5a, traceA5b, traceA5c, traceA5d,
 
