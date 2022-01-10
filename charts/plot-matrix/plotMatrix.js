@@ -16,8 +16,8 @@ import {
   traceC1a, traceC1b, traceC1c, traceC1d,
   traceC2a, traceC2b, traceC2c, traceC2d,
   traceC3,
-  traceC4a, traceC4b, traceC4c, traceC4d,
-  traceC5a, traceC5b, traceC5c, traceC5d,
+  traceC4,
+  traceC5,
 
   traceD1a, traceD1b, traceD1c, traceD1d,
   traceD2a, traceD2b, traceD2c, traceD2d,
@@ -50,8 +50,8 @@ export const plotMatrix = () => {
     traceC1a, traceC1b, traceC1c, traceC1d,
     traceC2a, traceC2b, traceC2c, traceC2d,
     traceC3,
-    traceC4a, traceC4b, traceC4c, traceC4d,
-    traceC5a, traceC5b, traceC5c, traceC5d,
+    traceC4,
+    traceC5,
 
     traceD1a, traceD1b, traceD1c, traceD1d,
     traceD2a, traceD2b, traceD2c, traceD2d,
