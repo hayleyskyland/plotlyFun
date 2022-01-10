@@ -42,40 +42,52 @@ export const traceA1 = {
 
 // A2
 
-export const traceA2a = {
-  y: y1,
-  xaxis: 'x2',
-  yaxis: 'y2',
-  type: 'scatter',
-  mode: 'markers',
-  marker: { color: 'pink' }
-};
+// export const traceA2a = {
+//   y: y1,
+//   xaxis: 'x2',
+//   yaxis: 'y2',
+//   type: 'scatter',
+//   mode: 'markers',
+//   marker: { color: 'pink' }
+// };
 
-export const traceA2b = {
-  y: y2,
-  xaxis: 'x2',
-  yaxis: 'y2',
-  type: 'scatter',
-  mode: 'markers',
-  marker: { color: 'plum' }
-};
+// export const traceA2b = {
+//   y: y2,
+//   xaxis: 'x2',
+//   yaxis: 'y2',
+//   type: 'scatter',
+//   mode: 'markers',
+//   marker: { color: 'plum' }
+// };
 
-export const traceA2c = {
-  y: y3,
-  xaxis: 'x2',
-  yaxis: 'y2',
-  type: 'scatter',
-  mode: 'markers',
-  marker: { color: 'lightblue' }
-};
+// export const traceA2c = {
+//   y: y3,
+//   xaxis: 'x2',
+//   yaxis: 'y2',
+//   type: 'scatter',
+//   mode: 'markers',
+//   marker: { color: 'lightblue' }
+// };
 
-export const traceA2d = {
-  y: yAvg,
-  xaxis: 'x2',
-  yaxis: 'y2',
-  type: 'scatter',
-  mode: 'lines',
-  marker: { color: 'lightgray' }
+// export const traceA2d = {
+//   y: yAvg,
+//   xaxis: 'x2',
+//   yaxis: 'y2',
+//   type: 'scatter',
+//   mode: 'lines',
+//   marker: { color: 'lightgray' }
+// };
+
+export const traceA2 = {
+  xaxis: 'x3',
+  yaxis: 'y3',
+  type: 'table',
+  header: {
+    values: [['a'], ['1.66'], ['c']],
+    align: 'center',
+    line: {width: 0},
+    font: {size: 26}
+  },
 };
 
 // A3
