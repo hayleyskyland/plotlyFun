@@ -92,16 +92,18 @@ export const traceA1 = {
 
 
 export const traceA2 = {
-  // xaxis: 'x3',
-  // yaxis: 'y3',
   type: 'table',
   header: {
-    values: [['a'], ['123'], ['c']],
+    values: ['', '', ''],
     align: 'center',
-    height: '40',
-    line: {width: 0},
-    font: {size: 26},
-    fill: {color: 'yellow'}
+    height: '60',
+    line: {width: 0, height: 4000},
+    font: {size: 26}
+  },
+  cells: {
+    values: [[''], ['1.23']],
+    line: {width: 0, height: 5000},
+    font: {size: 26}
   },
   domain: {row: 0, column: 1}
 };
