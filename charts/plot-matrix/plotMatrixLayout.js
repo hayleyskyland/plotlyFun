@@ -28,7 +28,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis2: {
@@ -40,7 +41,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis2: {
@@ -52,7 +54,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis3: {
@@ -64,7 +67,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis4: {
@@ -76,7 +80,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis5: {
@@ -88,7 +93,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis6: {
@@ -100,7 +106,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis7: {
@@ -112,7 +119,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis8: {
@@ -124,7 +132,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis9: {
@@ -136,7 +145,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis10: {
@@ -148,7 +158,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis11: {
@@ -160,7 +171,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis12: {
@@ -172,7 +184,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis13: {
@@ -184,7 +197,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis14: {
@@ -196,7 +210,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis15: {
@@ -208,7 +223,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis16: {
@@ -220,7 +236,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis17: {
@@ -232,7 +249,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis18: {
@@ -244,7 +262,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis19: {
@@ -256,7 +275,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis20: {
@@ -268,7 +288,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis21: {
@@ -280,7 +301,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis22: {
@@ -292,7 +314,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis23: {
@@ -304,7 +327,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis24: {
@@ -316,7 +340,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   xaxis25: {
@@ -328,7 +353,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis1: {
@@ -340,19 +366,22 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis2: {
     ticklen: 0,
     tickwidth: 0,
-    ticks: 'outside',
-    linecolor: '#F5DEB3',
-    ticks: false,
-    showline: true,
     color: 'white',
+    ticks: 'outside',
+    showline: true,
+    linecolor: '#F5DEB3',
     mirror: 'ticks',
-    showticklabels: false
+    ticks: false,
+    showticklabels: false,
+    linewidth: 1,
+    style_cell: {padding: '1000px'}
   },
 
   yaxis3: {
@@ -364,7 +393,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis4: {
@@ -376,7 +406,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis5: {
@@ -388,7 +419,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis6: {
@@ -400,7 +432,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis7: {
@@ -412,7 +445,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis8: {
@@ -424,7 +458,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis9: {
@@ -436,7 +471,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis10: {
@@ -448,7 +484,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis11: {
@@ -460,7 +497,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis12: {
@@ -472,7 +510,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis13: {
@@ -484,7 +523,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis14: {
@@ -496,7 +536,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis15: {
@@ -508,7 +549,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis16: {
@@ -520,7 +562,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis17: {
@@ -532,7 +575,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis18: {
@@ -544,7 +588,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis19: {
@@ -556,7 +601,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis20: {
@@ -568,7 +614,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis21: {
@@ -580,7 +627,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis22: {
@@ -592,7 +640,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis23: {
@@ -604,7 +653,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis24: {
@@ -616,7 +666,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
   yaxis25: {
@@ -628,7 +679,8 @@ export const plotMatrixLayout = {
     linecolor: '#F5DEB3',
     mirror: 'ticks',
     ticks: false,
-    showticklabels: false
+    showticklabels: false,
+    linewidth: 1
   },
 
 };

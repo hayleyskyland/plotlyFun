@@ -37,7 +37,7 @@ export const traceA1 = {
   yaxis: 'y1',    
   type: 'histogram',
   mode: 'markers',
-  marker: { color: 'plum' },
+  marker: { color: 'lightblue' },
 };
 
 // A2
@@ -94,16 +94,13 @@ export const traceA1 = {
 export const traceA2 = {
   type: 'table',
   header: {
-    values: ['', '', ''],
+    values: ['1.23'],
     align: 'center',
     height: '60',
-    line: {width: 0, height: 4000},
-    font: {size: 26}
-  },
-  cells: {
-    values: [[''], ['1.23']],
-    line: {width: 0, height: 5000},
-    font: {size: 26}
+    line: {width: 1, color: '#F5DEB3'},
+    height: 170,
+    font: {size: 26, color: 'plum'},
+    style: {margin: 10000}
   },
   domain: {row: 0, column: 1}
 };
@@ -895,5 +892,5 @@ export const traceE5 = {
   xaxis: 'x25',
   yaxis: 'y25',
   type: 'histogram',
-  marker: { color: 'plum' },
+  marker: { color: 'lightblue' },
 };
