@@ -453,40 +453,18 @@ export const traceD4 = {
 
 // d5
 
-export const traceD5a = {
-  y: y1,
-  xaxis: 'x20',
-  yaxis: 'y20',
-  type: 'scatter',
-  mode: 'markers',
-  marker: { color: 'pink' }
-};
-
-export const traceD5b = {
-  y: y2,
-  xaxis: 'x20',
-  yaxis: 'y20',
-  type: 'scatter',
-  mode: 'markers',
-  marker: { color: 'plum' }
-};
-
-export const traceD5c = {
-  y: y3,
-  xaxis: 'x20',
-  yaxis: 'y20',
-  type: 'scatter',
-  mode: 'markers',
-  marker: { color: 'lightblue' }
-};
-
-export const traceD5d = {
-  y: yAvg,
-  xaxis: 'x20',
-  yaxis: 'y20',
-  type: 'scatter',
-  mode: 'lines',
-  marker: { color: 'lightgray' }
+export const traceD5 = {
+  type: 'table',
+  header: {
+    values: ['1.23'],
+    align: 'center',
+    height: '60',
+    line: {width: 1, color: '#F5DEB3'},
+    height: 170,
+    font: {size: 26, color: 'plum'},
+    style: {margin: 10000}
+  },
+  domain: {row: 3, column: 4}
 };
 
 // row E
