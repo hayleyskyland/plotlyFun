@@ -78,17 +78,49 @@ export const traceA1 = {
 //   marker: { color: 'lightgray' }
 // };
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 export const traceA2 = {
-  xaxis: 'x3',
-  yaxis: 'y3',
+  // xaxis: 'x3',
+  // yaxis: 'y3',
   type: 'table',
   header: {
-    values: [['a'], ['1.66'], ['c']],
+    values: [['a'], ['123'], ['c']],
     align: 'center',
+    height: '40',
     line: {width: 0},
-    font: {size: 26}
+    font: {size: 26},
+    fill: {color: 'yellow'}
   },
+  domain: {row: 0, column: 1}
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // A3
 
