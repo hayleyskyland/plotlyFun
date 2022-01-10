@@ -4,8 +4,8 @@ import {
   traceA1,
   traceA2,
   traceA3,
-  traceA4a, traceA4b, traceA4c, traceA4d,
-  traceA5a, traceA5b, traceA5c, traceA5d,
+  traceA4,
+  traceA5,
 
   traceB1a, traceB1b, traceB1c, traceB1d,
   traceB2,
@@ -38,8 +38,8 @@ export const plotMatrix = () => {
     traceA1,
     traceA2,
     traceA3,
-    traceA4a, traceA4b, traceA4c, traceA4d,
-    traceA5a, traceA5b, traceA5c, traceA5d,
+    traceA4,
+    traceA5,
 
     traceB1a, traceB1b, traceB1c, traceB1d,
     traceB2,

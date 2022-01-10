@@ -74,78 +74,34 @@ export const traceA3 = {
 
 // A4
 
-export const traceA4a = {
-  y: y1,
-  xaxis: 'x4',
-  yaxis: 'y4',
-  type: 'scatter',
-  mode: 'markers',
-  marker: { color: 'pink' }
-};
-
-export const traceA4b = {
-  y: y2,
-  xaxis: 'x4',
-  yaxis: 'y4',
-  type: 'scatter',
-  mode: 'markers',
-  marker: { color: 'plum' }
-};
-
-export const traceA4c = {
-  y: y3,
-  xaxis: 'x4',
-  yaxis: 'y4',
-  type: 'scatter',
-  mode: 'markers',
-  marker: { color: 'lightblue' }
-};
-
-export const traceA4d = {
-  y: yAvg,
-  xaxis: 'x4',
-  yaxis: 'y4',
-  type: 'scatter',
-  mode: 'lines',
-  marker: { color: 'lightgray' }
+export const traceA4 = {
+  type: 'table',
+  header: {
+    values: ['1.23'],
+    align: 'center',
+    height: '60',
+    line: {width: 1, color: '#F5DEB3'},
+    height: 170,
+    font: {size: 26, color: 'plum'},
+    style: {margin: 10000}
+  },
+  domain: {row: 0, column: 3}
 };
 
 // A5
 
-export const traceA5a = {
-  y: y1,
-  xaxis: 'x5',
-  yaxis: 'y5',
-  type: 'scatter',
-  mode: 'markers',
-  marker: { color: 'pink' }
-};
-
-export const traceA5b = {
-  y: y2,
-  xaxis: 'x5',
-  yaxis: 'y5',
-  type: 'scatter',
-  mode: 'markers',
-  marker: { color: 'plum' }
-};
-
-export const traceA5c = {
-  y: y3,
-  xaxis: 'x5',
-  yaxis: 'y5',
-  type: 'scatter',
-  mode: 'markers',
-  marker: { color: 'lightblue' }
-};
-
-export const traceA5d = {
-  y: yAvg,
-  xaxis: 'x5',
-  yaxis: 'y5',
-  type: 'scatter',
-  mode: 'lines',
-  marker: { color: 'lightgray' }
+export const traceA5 = {
+  type: 'table',
+  header: {
+    values: ['1.23'],
+    align: 'center',
+    height: '60',
+    line: {width: 1, color: '#F5DEB3'},
+    height: 170,
+    font: {size: 26, color: 'plum'},
+    style: {margin: 10000}
+  },
+  domain: {row: 0, column: 4}
 };
 
 // row B
