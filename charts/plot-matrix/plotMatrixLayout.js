@@ -1,11 +1,15 @@
-// const hideAxes = { ticklen: 0, tickwidth: 0, color: 'white' }
-
 export const plotMatrixLayout = {
   
-  title: '<b>Title for Matrix Test</b><br>Subtitle for Matrix Test', 
+  title: {
+    text: '<b>Title for Matrix Test</b><br>Subtitle for Matrix Test',
+    font: {
+      color: 'cadetblue',
+      size: 30
+    }
+  },
   width: 1034,
   height: 1034,
-  // margin: { l: 70, r: 70, b: 70, t: 70},
+  margin: { l: 70, r: 70, b: 70, t: 130},
   showlegend: false,
 
   bargap: 0.05, 

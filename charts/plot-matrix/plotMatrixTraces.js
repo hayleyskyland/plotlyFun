@@ -1,30 +1,8 @@
 // row A
 
-const y1 = [1, 2, 3, 4, 5];
-const y2 = [2, 2, 5, 4, 6];
-const y3 = [1, 1, 2, 8, 8];
-
-const avg = (i) => {
-  const sum = y1[i] + y2[i] + y3[i];
-  return sum / 3;
-}
-
-const mid = () => {
-  const sum = avg(0) + avg(4)
-  return sum / 2;
-}
-
-const midA = () => {
-  const sum = avg(0) + mid()
-  return sum / 2;
-}
-
-const midB = () => {
-  const sum = mid() + avg(4)
-  return sum / 2;
-}
-
-const yAvg = [avg(0), midA(), mid(), midB(), avg(4)]
+const y1 = [8, 10, 1, 10, 10, 10, 3, 4, 5, 8, 10, 12, 15, 3, 20, 22, 25, 29, 19, 22, 30, 21, 39, 40];
+const y2 = [2, 5, 4, 6, 4, 19, 18, 20, 21, 22, 25, 39, 26, 28, 29, 25, 24, 38, 38];
+const y3 = [1, 2, 10, 8, 33, 8, 7, 9, 9, 10, 19, 1, 2, 22, 22, 22, 26, 30, 38, 38, 30, 32, 33];
 
 // row A
 
@@ -45,12 +23,12 @@ export const traceA1 = {
 export const traceA2 = {
   type: 'table',
   header: {
-    values: ['1.23'],
+    values: [' <br><br>1.23'],
     align: 'center',
     height: '60',
     line: {width: 1, color: '#F5DEB3'},
     height: 170,
-    font: {size: 26, color: 'plum'},
+    font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
   domain: {row: 0, column: 1}
@@ -61,12 +39,12 @@ export const traceA2 = {
 export const traceA3 = {
   type: 'table',
   header: {
-    values: ['1.23'],
+    values: [' <br><br>1.23'],
     align: 'center',
     height: '60',
     line: {width: 1, color: '#F5DEB3'},
     height: 170,
-    font: {size: 26, color: 'plum'},
+    font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
   domain: {row: 0, column: 2}
@@ -77,12 +55,12 @@ export const traceA3 = {
 export const traceA4 = {
   type: 'table',
   header: {
-    values: ['1.23'],
+    values: [' <br><br>1.23'],
     align: 'center',
     height: '60',
     line: {width: 1, color: '#F5DEB3'},
     height: 170,
-    font: {size: 26, color: 'plum'},
+    font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
   domain: {row: 0, column: 3}
@@ -93,12 +71,12 @@ export const traceA4 = {
 export const traceA5 = {
   type: 'table',
   header: {
-    values: ['1.23'],
+    values: [' <br><br>1.23'],
     align: 'center',
     height: '60',
     line: {width: 1, color: '#F5DEB3'},
     height: 170,
-    font: {size: 26, color: 'plum'},
+    font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
   domain: {row: 0, column: 4}
@@ -108,7 +86,11 @@ export const traceA5 = {
 
 // B1
 
+// Prod.Inputs.Osmo (mOsm/Kg)
+
 export const traceB1a = {
+  // y: [50.047, 50.026, 50.046, 50.064, 49.962, 50.037, 50.014, 50.048, 49.858, 50.052, 50.09, 50.142, 50.042, 49.886, 50.018, 50.025, 50.044, 49.939, 50.088, 50.126],
+  // y: [0.222185555, 0.203529035, 0.069390728, 0.210656664, 0.756311295, 0.718137494, 0.436570875, 0.3024756, 0.173166258, 0.990413076, 0.283429698, 0.740910255, 0.149916672, 0.8618448],
   y: y1,
   xaxis: 'x6',
   yaxis: 'y6',
@@ -136,10 +118,10 @@ export const traceB1c = {
 };
 
 export const traceB1d = {
-  y: yAvg,
+  // y: yAvg,
   xaxis: 'x6',
   yaxis: 'y6',
-  type: 'scatter',
+  type: 'line',
   mode: 'lines',
   marker: { color: 'lightgray' }
 };
@@ -160,12 +142,12 @@ export const traceB2 = {
 export const traceB3 = {
   type: 'table',
   header: {
-    values: ['1.23'],
+    values: [' <br><br>1.23'],
     align: 'center',
     height: '60',
     line: {width: 1, color: '#F5DEB3'},
     height: 170,
-    font: {size: 26, color: 'plum'},
+    font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
   domain: {row: 1, column: 2}
@@ -176,12 +158,12 @@ export const traceB3 = {
 export const traceB4 = {
   type: 'table',
   header: {
-    values: ['1.23'],
+    values: [' <br><br>1.23'],
     align: 'center',
     height: '60',
     line: {width: 1, color: '#F5DEB3'},
     height: 170,
-    font: {size: 26, color: 'plum'},
+    font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
   domain: {row: 1, column: 3}
@@ -192,12 +174,12 @@ export const traceB4 = {
 export const traceB5 = {
   type: 'table',
   header: {
-    values: ['1.23'],
+    values: [' <br><br>1.23'],
     align: 'center',
     height: '60',
     line: {width: 1, color: '#F5DEB3'},
     height: 170,
-    font: {size: 26, color: 'plum'},
+    font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
   domain: {row: 1, column: 4}
@@ -235,7 +217,7 @@ export const traceC1c = {
 };
 
 export const traceC1d = {
-  y: yAvg,
+  // y: yAvg,
   xaxis: 'x11',
   yaxis: 'y11',
   type: 'scatter',
@@ -273,7 +255,7 @@ export const traceC2c = {
 };
 
 export const traceC2d = {
-  y: yAvg,
+  // y: yAvg,
   xaxis: 'x12',
   yaxis: 'y12',
   type: 'scatter',
@@ -297,12 +279,12 @@ export const traceC3 = {
 export const traceC4 = {
   type: 'table',
   header: {
-    values: ['1.23'],
+    values: [' <br><br>1.23'],
     align: 'center',
     height: '60',
     line: {width: 1, color: '#F5DEB3'},
     height: 170,
-    font: {size: 26, color: 'plum'},
+    font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
   domain: {row: 2, column: 3}
@@ -313,12 +295,12 @@ export const traceC4 = {
 export const traceC5 = {
   type: 'table',
   header: {
-    values: ['1.23'],
+    values: [' <br><br>1.23'],
     align: 'center',
     height: '60',
     line: {width: 1, color: '#F5DEB3'},
     height: 170,
-    font: {size: 26, color: 'plum'},
+    font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
   domain: {row: 2, column: 4}
@@ -356,7 +338,7 @@ export const traceD1c = {
 };
 
 export const traceD1d = {
-  y: yAvg,
+  // y: yAvg,
   xaxis: 'x16',
   yaxis: 'y16',
   type: 'scatter',
@@ -394,7 +376,7 @@ export const traceD2c = {
 };
 
 export const traceD2d = {
-  y: yAvg,
+  // y: yAvg,
   xaxis: 'x17',
   yaxis: 'y17',
   type: 'scatter',
@@ -432,7 +414,7 @@ export const traceD3c = {
 };
 
 export const traceD3d = {
-  y: yAvg,
+  // y: yAvg,
   xaxis: 'x18',
   yaxis: 'y18',
   type: 'scatter',
@@ -456,12 +438,12 @@ export const traceD4 = {
 export const traceD5 = {
   type: 'table',
   header: {
-    values: ['1.23'],
+    values: [' <br><br>1.23'],
     align: 'center',
     height: '60',
     line: {width: 1, color: '#F5DEB3'},
     height: 170,
-    font: {size: 26, color: 'plum'},
+    font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
   domain: {row: 3, column: 4}
@@ -499,7 +481,7 @@ export const traceE1c = {
 };
 
 export const traceE1d = {
-  y: yAvg,
+  // y: yAvg,
   xaxis: 'x21',
   yaxis: 'y21',
   type: 'scatter',
@@ -537,7 +519,7 @@ export const traceE2c = {
 };
 
 export const traceE2d = {
-  y: yAvg,
+  // y: yAvg,
   xaxis: 'x22',
   yaxis: 'y22',
   type: 'scatter',
@@ -575,7 +557,7 @@ export const traceE3c = {
 };
 
 export const traceE3d = {
-  y: yAvg,
+  // y: yAvg,
   xaxis: 'x23',
   yaxis: 'y23',
   type: 'scatter',
@@ -613,7 +595,7 @@ export const traceE4c = {
 };
 
 export const traceE4d = {
-  y: yAvg,
+  // y: yAvg,
   xaxis: 'x24',
   yaxis: 'y24',
   type: 'scatter',
