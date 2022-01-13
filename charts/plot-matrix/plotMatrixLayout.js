@@ -1,13 +1,20 @@
-const xLayout = {
-  color: 'white',
+// borders
+
+const borderMirror = {
   linecolor: 'cadetblue',
   mirror: true,
+  showgrid: false,
+  showticklabels: false
 }
 
-const yLayout = {
-  color: 'white',
+const border = {
   linecolor: 'cadetblue',
+  showgrid: false,
+  zeroline: false,
+  showticklabels: false
 }
+
+// layout
 
 export const plotMatrixLayout = {
   
@@ -39,84 +46,84 @@ export const plotMatrixLayout = {
 
   // a1
 
-  xaxis1: xLayout,
-  yaxis1: yLayout,
+  xaxis1: borderMirror,
+  yaxis1: border,
   
   // B
 
   // b1
 
-  xaxis6: xLayout,
-  yaxis6: yLayout,
+  xaxis6: border,
+  yaxis6: border,
   
   // b2
 
-  xaxis7: xLayout,
-  yaxis7: yLayout,
+  xaxis7: borderMirror,
+  yaxis7: border,
   
   // C
 
   // c1
 
-  xaxis11: xLayout,
-  yaxis11: yLayout,
+  xaxis11: border,
+  yaxis11: border,
   
   // c2
 
-  xaxis12: xLayout,
-  yaxis12: yLayout,
+  xaxis12: border,
+  yaxis12: border,
   
   // c3
 
-  xaxis13: xLayout,
-  yaxis13: yLayout,
+  xaxis13: borderMirror,
+  yaxis13: border,
   
   // D
 
   // d1
 
-  xaxis16: xLayout,
-  yaxis16: yLayout,
+  xaxis16: border,
+  yaxis16: border,
   
   // d2
 
-  xaxis17: xLayout,
-  yaxis17: yLayout,
+  xaxis17: border,
+  yaxis17: border,
   
   // d3
 
-  xaxis18: xLayout,
-  yaxis18: yLayout,
+  xaxis18: border,
+  yaxis18: border,
   
   // d4
 
-  xaxis19: xLayout,
-  yaxis19: yLayout,
+  xaxis19: borderMirror,
+  yaxis19: border,
   
   // E
 
   // e1
 
-  xaxis21: xLayout,
-  yaxis21: yLayout,
+  xaxis21: border,
+  yaxis21: border,
   
   // e2
 
-  xaxis22: xLayout,
-  yaxis22: yLayout,
+  xaxis22: border,
+  yaxis22: border,
   
   // e3
 
-  xaxis23: xLayout,
-  yaxis23: yLayout,
+  xaxis23: border,
+  yaxis23: border,
 
   // e4
 
-  xaxis24: xLayout,
-  yaxis24: yLayout,
+  xaxis24: border,
+  yaxis24: border,
 
   // e5
 
-  xaxis25: xLayout,
-  yaxis25: xLayout
+  xaxis25: borderMirror,
+  yaxis25: borderMirror
 }

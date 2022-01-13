@@ -12,6 +12,6 @@ export const num = {
   values: [' <br><br>1.23'],
   align: 'center',
   line: {width: 0.5, color: 'cadetblue'},
-  height: 173,
+  height: 168,
   font: {size: 22, color: 'plum'}
 }
