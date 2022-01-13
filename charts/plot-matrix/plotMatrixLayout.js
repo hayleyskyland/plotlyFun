@@ -118,5 +118,5 @@ export const plotMatrixLayout = {
   // e5
 
   xaxis25: xLayout,
-  yaxis25: yLayout
+  yaxis25: xLayout
 }
