@@ -133,7 +133,7 @@ export const traceB3 = {
     height: '60',
     line: {width: 1, color: '#F5DEB3'},
     height: 170,
-    font: {size: 22, color: 'plum'},
+    font: {size: 22, color: 'lightgray'},
     style: {margin: 10000}
   },
   domain: {row: 1, column: 2}
@@ -151,7 +151,7 @@ export const traceB4 = {
     height: '60',
     line: {width: 1, color: '#F5DEB3'},
     height: 170,
-    font: {size: 22, color: 'plum'},
+    font: {size: 22, color: 'lightgray'},
     style: {margin: 10000}
   },
   domain: {row: 1, column: 3}
@@ -169,7 +169,7 @@ export const traceB5 = {
     height: '60',
     line: {width: 1, color: '#F5DEB3'},
     height: 170,
-    font: {size: 22, color: 'plum'},
+    font: {size: 22, color: 'lightgray'},
     style: {margin: 10000}
   },
   domain: {row: 1, column: 4}
@@ -323,7 +323,7 @@ export const traceD5 = {
     height: '60',
     line: {width: 1, color: '#F5DEB3'},
     height: 170,
-    font: {size: 22, color: 'plum'},
+    font: {size: 22, color: 'lightgray'},
     style: {margin: 10000}
   },
   domain: {row: 3, column: 4}
