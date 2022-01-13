@@ -24,299 +24,208 @@ export const plotMatrixLayout = {
     ygap: 0
   },
 
-
-
-
   // A
+
+  // a1
 
   xaxis1: {
     color: 'white',
     linecolor: 'cadetblue',
     mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
+  },
+
+  yaxis1: {
+    color: 'white',
+    linecolor: 'cadetblue',
   },
 
   // B
+
+  // b1
 
   xaxis6: {
     color: 'white',
     linecolor: 'cadetblue',
     mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
   },
-
-  xaxis7: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
-  },
-
-  // C
-
-  xaxis11: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
-  },
-
-  xaxis12: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
-  },
-
-  xaxis13: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
-  },
-
-  // D
-
-  xaxis16: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
-  },
-
-  xaxis17: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
-  },
-
-  xaxis18: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
-  },
-
-  xaxis19: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
-  },
-
-  // E
-
-  xaxis21: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
-  },
-
-  xaxis22: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
-  },
-
-  xaxis23: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
-  },
-
-  xaxis24: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
-  },
-
-  xaxis25: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
-  },
-
-
-
-
-  // 1
-
-  yaxis1: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
-  },
-
-  // 2
 
   yaxis6: {
     color: 'white',
     linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
+  },
+
+  // b2
+
+  xaxis7: {
+    color: 'white',
+    linecolor: 'cadetblue',
+    mirror: true
   },
 
   yaxis7: {
     color: 'white',
     linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
   },
 
-  // 3
+  // C
+
+  // c1
+
+  xaxis11: {
+    color: 'white',
+    linecolor: 'cadetblue',
+    mirror: true,
+  },
 
   yaxis11: {
     color: 'white',
     linecolor: 'cadetblue',
+  },
+
+  // c2
+
+  xaxis12: {
+    color: 'white',
+    linecolor: 'cadetblue',
     mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
   },
 
   yaxis12: {
     color: 'white',
     linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
+  },
+
+  // c3
+
+  xaxis13: {
+    color: 'white',
+    linecolor: 'cadetblue',
+    mirror: true
   },
 
   yaxis13: {
     color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
+    linecolor: 'cadetblue'
   },
 
-  // 4
+  // D
+
+  // d1
+
+  xaxis16: {
+    color: 'white',
+    linecolor: 'cadetblue',
+    mirror: true
+  },
 
   yaxis16: {
     color: 'white',
     linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
+  },
+
+  // d2
+
+  xaxis17: {
+    color: 'white',
+    linecolor: 'cadetblue',
+    mirror: true
   },
 
   yaxis17: {
     color: 'white',
+    linecolor: 'cadetblue'
+  },
+
+  // d3
+
+  xaxis18: {
+    color: 'white',
     linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
+    mirror: true
   },
 
   yaxis18: {
     color: 'white',
+    linecolor: 'cadetblue'
+  },
+
+  // d4
+
+  xaxis19: {
+    color: 'white',
     linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
+    mirror: true
   },
 
   yaxis19: {
     color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
+    linecolor: 'cadetblue'
   },
 
-  // 5
+  // E
+
+  // e1
+
+  xaxis21: {
+    color: 'white',
+    linecolor: 'cadetblue',
+    mirror: true
+  },
 
   yaxis21: {
     color: 'white',
+    linecolor: 'cadetblue'
+  },
+
+  // e2
+
+  xaxis22: {
+    color: 'white',
     linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
+    mirror: true
   },
 
   yaxis22: {
     color: 'white',
+    linecolor: 'cadetblue'
+  },
+
+  // e3
+
+  xaxis23: {
+    color: 'white',
     linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
+    mirror: true
   },
 
   yaxis23: {
     color: 'white',
+    linecolor: 'cadetblue'
+  },
+
+  // e4
+
+  xaxis24: {
+    color: 'white',
     linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
+    mirror: true
   },
 
   yaxis24: {
     color: 'white',
+    linecolor: 'cadetblue'
+  },
+
+  // e5
+
+  xaxis25: {
+    color: 'white',
     linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
+    mirror: true
   },
 
   yaxis25: {
     color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-    showticklabels: false,
-    linewidth: 0.5,
-    nticks: 0
+    linecolor: 'cadetblue'
   },
 };
