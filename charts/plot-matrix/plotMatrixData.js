@@ -11,7 +11,7 @@ export const ph = [0.0046, 0.3267, 0.6165, 0.8363, 0.9739, 1.0003, 0.9163, 0.735
 export const num = {
   values: [' <br><br>1.23'],
   align: 'center',
-  line: {width: 0.5, color: 'cadetblue'},
+  line: {width: 0.5, color: 'lightgray'},
   height: 168,
   font: {size: 22, color: 'plum'}
 }

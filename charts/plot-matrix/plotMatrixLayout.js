@@ -1,14 +1,14 @@
 // borders
 
 const borderMirror = {
-  linecolor: 'cadetblue',
+  linecolor: 'lightgray',
   mirror: true,
   showgrid: false,
   showticklabels: false
 }
 
 const border = {
-  linecolor: 'cadetblue',
+  linecolor: 'lightgray',
   showgrid: false,
   zeroline: false,
   showticklabels: false
@@ -19,7 +19,7 @@ const border = {
 export const plotMatrixLayout = {
   
   title: {
-    text: '<b>Title for Matrix Test</b><br>Subtitle for Matrix Test',
+    text: '<b>Plotly Matrix</b><br>Made With Test Data',
     font: {
       color: 'cadetblue',
       size: 30
