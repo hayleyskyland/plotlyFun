@@ -7,61 +7,37 @@ import { osmo, time, duration, temp, ph, num } from './plotMatrixData.js';
 const histogramColor = { color: 'FCB07E' }
 const scatterColor  = { color: '#5AA9E6' }
 
+const histogram = (array, xaxis, yaxis) => {
+  return {
+    x: array,
+    y: array,
+    xaxis: xaxis,
+    yaxis: yaxis,    
+    type: 'histogram',
+    mode: 'markers',
+    marker: histogramColor
+  };
+}
+
+const table = (xArray, yArray, row, column) => {
+  return {
+    type: 'table',
+    header: num(xArray, yArray),
+    domain: {row: row, column: column}
+  };
+}
+
 // A
 
-// a1
-// x osmo
-// y osmo
+export const traceA1 = histogram(osmo, 'x1', 'y1')
 
-export const traceA1 = {
-  x: osmo,
-  y: osmo,
-  xaxis: 'x1',
-  yaxis: 'y1',    
-  type: 'histogram',
-  mode: 'markers',
-  marker: histogramColor
-};
+export const traceA2 = table(time, osmo, 0, 1)
 
-// a2
-// x time
-// y osmo
+export const traceA3 = table(duration, osmo, 0, 2)
 
-export const traceA2 = {
-  type: 'table',
-  header: num(time, osmo),
-  domain: {row: 0, column: 1}
-};
+export const traceA4 = table(temp, osmo, 0, 3)
 
-// a3
-// x duration
-// y osmo
-
-export const traceA3 = {
-  type: 'table',
-  header: num(duration, osmo),
-  domain: {row: 0, column: 2}
-};
-
-// a4
-// x temp
-// y osmo
-
-export const traceA4 = { 
-  type: 'table',
-  header: num(temp, osmo),
-  domain: {row: 0, column: 3}
-};
-
-// a5
-// x ph
-// y osmo
-
-export const traceA5 = {
-  type: 'table',
-  header: num(ph, osmo),
-  domain: {row: 0, column: 4}
-};
+export const traceA5 = table(ph, osmo, 0, 4)
 
 // B
 
@@ -80,47 +56,20 @@ export const traceB1 = {
 };
 
 // b2
-// x time
-// y time
 
-export const traceB2 = {
-  x: time,
-  y: time,
-  xaxis: 'x7',
-  yaxis: 'y7',
-  type: 'histogram',
-  marker: histogramColor
-};
+export const traceB2 = histogram(time, 'x7', 'y7')
 
 // b3
-// x duration
-// y time
 
-export const traceB3 = {
-  type: 'table',
-  header: num(duration, time),
-  domain: {row: 1, column: 2}
-};
+export const traceB3 = table(duration, time, 1, 2)
 
 // b4
-// x temp
-// y time
 
-export const traceB4 = {
-  type: 'table',
-  header: num(temp, time),
-  domain: {row: 1, column: 3}
-};
+export const traceB4 = table(temp, time, 1, 3)
 
 // b5
-// x ph
-// y time
 
-export const traceB5 = {
-  type: 'table',
-  header: num(ph, time),
-  domain: {row: 1, column: 4}
-};
+export const traceB5 = table(ph, time, 1, 4)
 
 // C
 
@@ -153,43 +102,20 @@ export const traceC2 = {
 };
 
 // c3
-// x duration
-// y duration
 
-export const traceC3 = {
-  x: duration,
-  y: duration,
-  xaxis: 'x13',
-  yaxis: 'y13',
-  type: 'histogram',
-  marker: histogramColor
-};
+export const traceC3 = histogram(duration, 'x13', 'y13')
 
 // c4
-// x temp
-// y duration
 
-export const traceC4 = {
-  type: 'table',
-  header: num(temp, duration),
-  domain: {row: 2, column: 3}
-};
+export const traceC4 = table(temp, duration, 2, 3)
 
 // c5
-// x ph
-// y duration
 
-export const traceC5 = {
-  type: 'table',
-  header: num(ph, duration),
-  domain: {row: 2, column: 4}
-};
+export const traceC5 = table(ph, duration, 2, 4)
 
 // D
 
 // d1
-// x osmo
-// y temp
 
 export const traceD1 = {
   x: osmo,
@@ -230,27 +156,12 @@ export const traceD3 = {
 };
 
 // d4
-// x temp
-// y temp
 
-export const traceD4 = {
-  x: temp,
-  y: temp,
-  xaxis: 'x19',
-  yaxis: 'y19',
-  type: 'histogram',
-  marker: histogramColor
-};
+export const traceD4 = histogram(temp, 'x19', 'y19')
 
 // d5
-// x ph
-// y temp
 
-export const traceD5 = {
-  type: 'table',
-  header: num(ph, temp),
-  domain: {row: 3, column: 4}
-};
+export const traceD5 = table(ph, temp, 3, 4)
 
 // E
 
@@ -311,14 +222,5 @@ export const traceE4 = {
 };
 
 // e5
-// x ph
-// y ph
 
-export const traceE5 = {
-  x: ph,
-  y: ph,
-  xaxis: 'x25',
-  yaxis: 'y25',
-  type: 'histogram',
-  marker: histogramColor
-};
+export const traceE5 = histogram(ph, 'x25', 'y25')
