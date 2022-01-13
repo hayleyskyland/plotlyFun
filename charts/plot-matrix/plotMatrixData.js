@@ -13,5 +13,5 @@ export const num = {
   align: 'center',
   line: {width: 0.5, color: 'lightgray'},
   height: 168,
-  font: {size: 22, color: 'plum'}
+  font: {size: 22, color: '#399E5A'}
 }

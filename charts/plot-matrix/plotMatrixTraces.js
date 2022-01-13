@@ -4,9 +4,9 @@ import { osmo, time, duration, temp, ph, num } from './plotMatrixData.js';
 
 // colors
 
-const blue = { color: 'lightblue' }
-const pink  = { color: 'pink' }
-const plum = { color: 'plum' }
+const histogramColor = { color: 'FCB07E' }
+const scatterColor  = { color: '#5AA9E6' }
+// const plum = { color: 'C6D57E' }
 
 // A
 
@@ -21,7 +21,7 @@ export const traceA1 = {
   yaxis: 'y1',    
   type: 'histogram',
   mode: 'markers',
-  marker: blue
+  marker: histogramColor
 };
 
 // a2
@@ -77,7 +77,7 @@ export const traceB1 = {
   yaxis: 'y6',
   type: 'scatter',
   mode: 'markers',
-  marker: pink
+  marker: scatterColor
 };
 
 // b2
@@ -90,7 +90,7 @@ export const traceB2 = {
   xaxis: 'x7',
   yaxis: 'y7',
   type: 'histogram',
-  marker: blue
+  marker: histogramColor
 };
 
 // b3
@@ -136,7 +136,7 @@ export const traceC1 = {
   yaxis: 'y11',
   type: 'scatter',
   mode: 'markers',
-  marker: pink
+  marker: scatterColor
 };
 
 // c2
@@ -150,7 +150,7 @@ export const traceC2 = {
   yaxis: 'y12',
   type: 'scatter',
   mode: 'markers',
-  marker: pink
+  marker: scatterColor
 };
 
 // c3
@@ -163,7 +163,7 @@ export const traceC3 = {
   xaxis: 'x13',
   yaxis: 'y13',
   type: 'histogram',
-  marker: blue
+  marker: histogramColor
 };
 
 // c4
@@ -199,7 +199,7 @@ export const traceD1 = {
   yaxis: 'y16',
   type: 'scatter',
   mode: 'markers',
-  marker: pink
+  marker: scatterColor
 };
 
 // d2
@@ -213,7 +213,7 @@ export const traceD2 = {
   yaxis: 'y17',
   type: 'scatter',
   mode: 'markers',
-  marker: pink
+  marker: scatterColor
 };
 
 // d3
@@ -227,7 +227,7 @@ export const traceD3 = {
   yaxis: 'y18',
   type: 'scatter',
   mode: 'markers',
-  marker: pink
+  marker: scatterColor
 };
 
 // d4
@@ -240,7 +240,7 @@ export const traceD4 = {
   xaxis: 'x19',
   yaxis: 'y19',
   type: 'histogram',
-  marker: blue
+  marker: histogramColor
 };
 
 // d5
@@ -266,7 +266,7 @@ export const traceE1 = {
   yaxis: 'y21',
   type: 'scatter',
   mode: 'markers',
-  marker: pink
+  marker: scatterColor
 };
 
 // e2
@@ -280,7 +280,7 @@ export const traceE2 = {
   yaxis: 'y22',
   type: 'scatter',
   mode: 'markers',
-  marker: pink
+  marker: scatterColor
 };
 
 // e3
@@ -294,7 +294,7 @@ export const traceE3 = {
   yaxis: 'y23',
   type: 'scatter',
   mode: 'markers',
-  marker: pink
+  marker: scatterColor
 };
 
 // e4
@@ -308,7 +308,7 @@ export const traceE4 = {
   yaxis: 'y24',
   type: 'scatter',
   mode: 'markers',
-  marker: pink
+  marker: scatterColor
 };
 
 // e5
@@ -321,5 +321,5 @@ export const traceE5 = {
   xaxis: 'x25',
   yaxis: 'y25',
   type: 'histogram',
-  marker: blue
+  marker: histogramColor
 };

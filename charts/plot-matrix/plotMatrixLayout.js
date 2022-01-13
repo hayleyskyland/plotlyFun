@@ -21,7 +21,7 @@ export const plotMatrixLayout = {
   title: {
     text: '<b>Plotly Matrix</b><br>Made With Test Data',
     font: {
-      color: 'cadetblue',
+      color: '#8A7090',
       size: 30
     }
   },
