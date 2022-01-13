@@ -6,7 +6,6 @@ import { osmo, time, duration, temp, ph, num } from './plotMatrixData.js';
 
 const histogramColor = { color: 'FCB07E' }
 const scatterColor  = { color: '#5AA9E6' }
-// const plum = { color: 'C6D57E' }
 
 // A
 
@@ -30,7 +29,7 @@ export const traceA1 = {
 
 export const traceA2 = {
   type: 'table',
-  header: num,
+  header: num(time, osmo),
   domain: {row: 0, column: 1}
 };
 
@@ -40,7 +39,7 @@ export const traceA2 = {
 
 export const traceA3 = {
   type: 'table',
-  header: num,
+  header: num(duration, osmo),
   domain: {row: 0, column: 2}
 };
 
@@ -50,7 +49,7 @@ export const traceA3 = {
 
 export const traceA4 = { 
   type: 'table',
-  header: num,
+  header: num(temp, osmo),
   domain: {row: 0, column: 3}
 };
 
@@ -60,7 +59,7 @@ export const traceA4 = {
 
 export const traceA5 = {
   type: 'table',
-  header: num,
+  header: num(ph, osmo),
   domain: {row: 0, column: 4}
 };
 
@@ -99,7 +98,7 @@ export const traceB2 = {
 
 export const traceB3 = {
   type: 'table',
-  header: num,
+  header: num(duration, time),
   domain: {row: 1, column: 2}
 };
 
@@ -109,7 +108,7 @@ export const traceB3 = {
 
 export const traceB4 = {
   type: 'table',
-  header: num,
+  header: num(temp, time),
   domain: {row: 1, column: 3}
 };
 
@@ -119,7 +118,7 @@ export const traceB4 = {
 
 export const traceB5 = {
   type: 'table',
-  header: num,
+  header: num(ph, time),
   domain: {row: 1, column: 4}
 };
 
@@ -172,7 +171,7 @@ export const traceC3 = {
 
 export const traceC4 = {
   type: 'table',
-  header: num,
+  header: num(temp, duration),
   domain: {row: 2, column: 3}
 };
 
@@ -182,7 +181,7 @@ export const traceC4 = {
 
 export const traceC5 = {
   type: 'table',
-  header: num,
+  header: num(ph, duration),
   domain: {row: 2, column: 4}
 };
 
@@ -249,7 +248,7 @@ export const traceD4 = {
 
 export const traceD5 = {
   type: 'table',
-  header: num,
+  header: num(ph, temp),
   domain: {row: 3, column: 4}
 };
 
