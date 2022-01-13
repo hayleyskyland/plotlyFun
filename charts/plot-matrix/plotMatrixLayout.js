@@ -1,3 +1,14 @@
+const xLayout = {
+  color: 'white',
+  linecolor: 'cadetblue',
+  mirror: true,
+}
+
+const yLayout = {
+  color: 'white',
+  linecolor: 'cadetblue',
+}
+
 export const plotMatrixLayout = {
   
   title: {
@@ -28,204 +39,84 @@ export const plotMatrixLayout = {
 
   // a1
 
-  xaxis1: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-  },
-
-  yaxis1: {
-    color: 'white',
-    linecolor: 'cadetblue',
-  },
-
+  xaxis1: xLayout,
+  yaxis1: yLayout,
+  
   // B
 
   // b1
 
-  xaxis6: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-  },
-
-  yaxis6: {
-    color: 'white',
-    linecolor: 'cadetblue',
-  },
-
+  xaxis6: xLayout,
+  yaxis6: yLayout,
+  
   // b2
 
-  xaxis7: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true
-  },
-
-  yaxis7: {
-    color: 'white',
-    linecolor: 'cadetblue',
-  },
-
+  xaxis7: xLayout,
+  yaxis7: yLayout,
+  
   // C
 
   // c1
 
-  xaxis11: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-  },
-
-  yaxis11: {
-    color: 'white',
-    linecolor: 'cadetblue',
-  },
-
+  xaxis11: xLayout,
+  yaxis11: yLayout,
+  
   // c2
 
-  xaxis12: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true,
-  },
-
-  yaxis12: {
-    color: 'white',
-    linecolor: 'cadetblue',
-  },
-
+  xaxis12: xLayout,
+  yaxis12: yLayout,
+  
   // c3
 
-  xaxis13: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true
-  },
-
-  yaxis13: {
-    color: 'white',
-    linecolor: 'cadetblue'
-  },
-
+  xaxis13: xLayout,
+  yaxis13: yLayout,
+  
   // D
 
   // d1
 
-  xaxis16: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true
-  },
-
-  yaxis16: {
-    color: 'white',
-    linecolor: 'cadetblue',
-  },
-
+  xaxis16: xLayout,
+  yaxis16: yLayout,
+  
   // d2
 
-  xaxis17: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true
-  },
-
-  yaxis17: {
-    color: 'white',
-    linecolor: 'cadetblue'
-  },
-
+  xaxis17: xLayout,
+  yaxis17: yLayout,
+  
   // d3
 
-  xaxis18: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true
-  },
-
-  yaxis18: {
-    color: 'white',
-    linecolor: 'cadetblue'
-  },
-
+  xaxis18: xLayout,
+  yaxis18: yLayout,
+  
   // d4
 
-  xaxis19: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true
-  },
-
-  yaxis19: {
-    color: 'white',
-    linecolor: 'cadetblue'
-  },
-
+  xaxis19: xLayout,
+  yaxis19: yLayout,
+  
   // E
 
   // e1
 
-  xaxis21: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true
-  },
-
-  yaxis21: {
-    color: 'white',
-    linecolor: 'cadetblue'
-  },
-
+  xaxis21: xLayout,
+  yaxis21: yLayout,
+  
   // e2
 
-  xaxis22: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true
-  },
-
-  yaxis22: {
-    color: 'white',
-    linecolor: 'cadetblue'
-  },
-
+  xaxis22: xLayout,
+  yaxis22: yLayout,
+  
   // e3
 
-  xaxis23: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true
-  },
-
-  yaxis23: {
-    color: 'white',
-    linecolor: 'cadetblue'
-  },
+  xaxis23: xLayout,
+  yaxis23: yLayout,
 
   // e4
 
-  xaxis24: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true
-  },
-
-  yaxis24: {
-    color: 'white',
-    linecolor: 'cadetblue'
-  },
+  xaxis24: xLayout,
+  yaxis24: yLayout,
 
   // e5
 
-  xaxis25: {
-    color: 'white',
-    linecolor: 'cadetblue',
-    mirror: true
-  },
-
-  yaxis25: {
-    color: 'white',
-    linecolor: 'cadetblue'
-  },
-};
+  xaxis25: xLayout,
+  yaxis25: yLayout
+}

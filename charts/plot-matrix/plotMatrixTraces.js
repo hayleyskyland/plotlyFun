@@ -1,12 +1,8 @@
-const y1 = [8, 10, 1, 10, 10, 10, 3, 4, 5, 8, 10, 12, 15, 3, 20, 22, 25, 29, 19, 22, 30, 21, 39, 40];
-const y2 = [2, 5, 4, 6, 4, 19, 18, 20, 21, 22, 25, 39, 26, 28, 29, 25, 24, 38, 38];
-const y3 = [1, 2, 10, 8, 33, 8, 7, 9, 9, 10, 19, 1, 2, 22, 22, 22, 26, 30, 38, 38, 30, 32, 33];
+import { osmo, time, duration, temp, ph, num } from './plotMatrixData.js';
 
-import { osmo, time, duration, temp, ph } from './plotMatrixData.js';
+// A
 
-// row A
-
-// A1
+// a1
 // x osmo
 // y osmo
 
@@ -20,85 +16,49 @@ export const traceA1 = {
   marker: { color: 'lightblue' },
 };
 
-// A2
+// a2
 // x time
 // y osmo
 
 export const traceA2 = {
   type: 'table',
-  header: {
-    values: [' <br><br>1.23'],
-    align: 'center',
-
-    line: {width: 0.5, color: 'cadetblue'},
-    height: 173,
-    width: 173,
-    font: {size: 22, color: 'plum'},
-    style: {margin: 10000}
-  },
+  header: num,
   domain: {row: 0, column: 1}
 };
 
-// A3
+// a3
 // x duration
 // y osmo
 
 export const traceA3 = {
   type: 'table',
-  header: {
-    values: [' <br><br>1.23'],
-    align: 'center',
-
-    line: {width: 0.5, color: 'cadetblue'},
-    height: 173,
-    width: 173,
-    font: {size: 22, color: 'plum'},
-    style: {margin: 10000}
-  },
+  header: num,
   domain: {row: 0, column: 2}
 };
 
-// A4
+// a4
 // x temp
 // y osmo
 
-export const traceA4 = {
+export const traceA4 = { 
   type: 'table',
-  header: {
-    values: [' <br><br>1.23'],
-    align: 'center',
-
-    line: {width: 0.5, color: 'cadetblue'},
-    height: 173,
-    width: 173,
-    font: {size: 22, color: 'plum'},
-    style: {margin: 10000}
-  },
+  header: num,
   domain: {row: 0, column: 3}
 };
 
-// A5
+// a5
 // x ph
 // y osmo
 
 export const traceA5 = {
   type: 'table',
-  header: {
-    values: [' <br><br>1.23'],
-    align: 'center',
-
-    line: {width: 0.5, color: 'cadetblue'},
-    height: 173,
-    width: 173,
-    font: {size: 22, color: 'plum'},
-    style: {margin: 10000}
-  },
+  header: num,
   domain: {row: 0, column: 4}
 };
 
-// row B
+// B
 
-// B1
+// b1
 // x osmo
 // y time
 
@@ -112,7 +72,7 @@ export const traceB1 = {
   marker: { color: 'lightgray' }
 };
 
-// B2
+// b2
 // x time
 // y time
 
@@ -125,64 +85,37 @@ export const traceB2 = {
   marker: { color: 'pink' },
 };
 
-// B3
+// b3
 // x duration
 // y time
 
 export const traceB3 = {
   type: 'table',
-  header: {
-    values: [' <br><br>1.23'],
-    align: 'center',
-
-    line: {width: 0.5, color: 'cadetblue'},
-    height: 173,
-    width: 173,
-    font: {size: 22, color: 'lightgray'},
-    style: {margin: 10000}
-  },
+  header: num,
   domain: {row: 1, column: 2}
 };
 
-// B4
+// b4
 // x temp
 // y time
 
 export const traceB4 = {
   type: 'table',
-  header: {
-    values: [' <br><br>1.23'],
-    align: 'center',
-
-    line: {width: 0.5, color: 'cadetblue'},
-    height: 173,
-    width: 173,
-    font: {size: 22, color: 'lightgray'},
-    style: {margin: 10000}
-  },
+  header: num,
   domain: {row: 1, column: 3}
 };
 
-// B5
+// b5
 // x ph
 // y time
 
 export const traceB5 = {
   type: 'table',
-  header: {
-    values: [' <br><br>1.23'],
-    align: 'center',
-
-    line: {width: 0.5, color: 'cadetblue'},
-    height: 173,
-    width: 173,
-    font: {size: 22, color: 'lightgray'},
-    style: {margin: 10000}
-  },
+  header: num,
   domain: {row: 1, column: 4}
 };
 
-// row C
+// C
 
 // c1
 // x osmo
@@ -190,7 +123,7 @@ export const traceB5 = {
 
 export const traceC1 = {
   x: osmo,
-  y: y2,
+  y: duration,
   xaxis: 'x11',
   yaxis: 'y11',
   type: 'scatter',
@@ -231,16 +164,7 @@ export const traceC3 = {
 
 export const traceC4 = {
   type: 'table',
-  header: {
-    values: [' <br><br>1.23'],
-    align: 'center',
-
-    line: {width: 0.5, color: 'cadetblue'},
-    height: 173,
-    width: 173,
-    font: {size: 22, color: 'plum'},
-    style: {margin: 10000}
-  },
+  header: num,
   domain: {row: 2, column: 3}
 };
 
@@ -250,20 +174,11 @@ export const traceC4 = {
 
 export const traceC5 = {
   type: 'table',
-  header: {
-    values: [' <br><br>1.23'],
-    align: 'center',
-
-    line: {width: 0.5, color: 'cadetblue'},
-    height: 173,
-    width: 173,
-    font: {size: 22, color: 'plum'},
-    style: {margin: 10000}
-  },
+  header: num,
   domain: {row: 2, column: 4}
 };
 
-// row D
+// D
 
 // d1
 // x osmo
@@ -326,20 +241,11 @@ export const traceD4 = {
 
 export const traceD5 = {
   type: 'table',
-  header: {
-    values: [' <br><br>1.23'],
-    align: 'center',
-
-    line: {width: 0.5, color: 'cadetblue'},
-    height: 173,
-    width: 173,
-    font: {size: 22, color: 'lightgray'},
-    style: {margin: 10000}
-  },
+  header: num,
   domain: {row: 3, column: 4}
 };
 
-// row E
+// E
 
 // e1
 // x osmo
@@ -362,7 +268,6 @@ export const traceE1 = {
 export const traceE2 = {
   x: time,
   y: ph,
-  y: y1,
   xaxis: 'x22',
   yaxis: 'y22',
   type: 'scatter',
