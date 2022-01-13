@@ -24,668 +24,299 @@ export const plotMatrixLayout = {
     ygap: 0
   },
 
+
+
+
+  // A
+
   xaxis1: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
-  xaxis2: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
-
-  xaxis2: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
-
-  xaxis3: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
-
-  xaxis4: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
-
-  xaxis5: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
+  // B
 
   xaxis6: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   xaxis7: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
-  xaxis8: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
-
-  xaxis9: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
-
-  xaxis10: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
+  // C
 
   xaxis11: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   xaxis12: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   xaxis13: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
-  xaxis14: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
-
-  xaxis15: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
+  // D
 
   xaxis16: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   xaxis17: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   xaxis18: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   xaxis19: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
-  xaxis20: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
+  // E
 
   xaxis21: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   xaxis22: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   xaxis23: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   xaxis24: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   xaxis25: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
+
+
+
+
+  // 1
 
   yaxis1: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
-  yaxis2: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1,
-    style_cell: {padding: '1000px'}
-  },
-
-  yaxis3: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
-
-  yaxis4: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
-
-  yaxis5: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
+  // 2
 
   yaxis6: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   yaxis7: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
-  yaxis8: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
-
-  yaxis9: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
-
-  yaxis10: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
+  // 3
 
   yaxis11: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   yaxis12: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   yaxis13: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
-  yaxis14: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
-
-  yaxis15: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
+  // 4
 
   yaxis16: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   yaxis17: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   yaxis18: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   yaxis19: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
-  yaxis20: {
-    ticklen: 0,
-    tickwidth: 0,
-    color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
-    showticklabels: false,
-    linewidth: 1
-  },
+  // 5
 
   yaxis21: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   yaxis22: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   yaxis23: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   yaxis24: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
 
   yaxis25: {
-    ticklen: 0,
-    tickwidth: 0,
     color: 'white',
-    ticks: 'outside',
-    showline: true,
-    linecolor: '#F5DEB3',
-    mirror: 'ticks',
-    ticks: false,
+    linecolor: 'cadetblue',
+    mirror: true,
     showticklabels: false,
-    linewidth: 1
+    linewidth: 0.5,
+    nticks: 0
   },
-
 };

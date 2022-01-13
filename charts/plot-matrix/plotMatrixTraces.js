@@ -29,9 +29,10 @@ export const traceA2 = {
   header: {
     values: [' <br><br>1.23'],
     align: 'center',
-    height: '60',
-    line: {width: 1, color: '#F5DEB3'},
-    height: 170,
+
+    line: {width: 0.5, color: 'cadetblue'},
+    height: 173,
+    width: 173,
     font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
@@ -47,9 +48,10 @@ export const traceA3 = {
   header: {
     values: [' <br><br>1.23'],
     align: 'center',
-    height: '60',
-    line: {width: 1, color: '#F5DEB3'},
-    height: 170,
+
+    line: {width: 0.5, color: 'cadetblue'},
+    height: 173,
+    width: 173,
     font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
@@ -65,9 +67,10 @@ export const traceA4 = {
   header: {
     values: [' <br><br>1.23'],
     align: 'center',
-    height: '60',
-    line: {width: 1, color: '#F5DEB3'},
-    height: 170,
+
+    line: {width: 0.5, color: 'cadetblue'},
+    height: 173,
+    width: 173,
     font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
@@ -83,9 +86,10 @@ export const traceA5 = {
   header: {
     values: [' <br><br>1.23'],
     align: 'center',
-    height: '60',
-    line: {width: 1, color: '#F5DEB3'},
-    height: 170,
+
+    line: {width: 0.5, color: 'cadetblue'},
+    height: 173,
+    width: 173,
     font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
@@ -130,9 +134,10 @@ export const traceB3 = {
   header: {
     values: [' <br><br>1.23'],
     align: 'center',
-    height: '60',
-    line: {width: 1, color: '#F5DEB3'},
-    height: 170,
+
+    line: {width: 0.5, color: 'cadetblue'},
+    height: 173,
+    width: 173,
     font: {size: 22, color: 'lightgray'},
     style: {margin: 10000}
   },
@@ -148,9 +153,10 @@ export const traceB4 = {
   header: {
     values: [' <br><br>1.23'],
     align: 'center',
-    height: '60',
-    line: {width: 1, color: '#F5DEB3'},
-    height: 170,
+
+    line: {width: 0.5, color: 'cadetblue'},
+    height: 173,
+    width: 173,
     font: {size: 22, color: 'lightgray'},
     style: {margin: 10000}
   },
@@ -166,9 +172,10 @@ export const traceB5 = {
   header: {
     values: [' <br><br>1.23'],
     align: 'center',
-    height: '60',
-    line: {width: 1, color: '#F5DEB3'},
-    height: 170,
+
+    line: {width: 0.5, color: 'cadetblue'},
+    height: 173,
+    width: 173,
     font: {size: 22, color: 'lightgray'},
     style: {margin: 10000}
   },
@@ -227,9 +234,10 @@ export const traceC4 = {
   header: {
     values: [' <br><br>1.23'],
     align: 'center',
-    height: '60',
-    line: {width: 1, color: '#F5DEB3'},
-    height: 170,
+
+    line: {width: 0.5, color: 'cadetblue'},
+    height: 173,
+    width: 173,
     font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
@@ -245,9 +253,10 @@ export const traceC5 = {
   header: {
     values: [' <br><br>1.23'],
     align: 'center',
-    height: '60',
-    line: {width: 1, color: '#F5DEB3'},
-    height: 170,
+
+    line: {width: 0.5, color: 'cadetblue'},
+    height: 173,
+    width: 173,
     font: {size: 22, color: 'plum'},
     style: {margin: 10000}
   },
@@ -320,9 +329,10 @@ export const traceD5 = {
   header: {
     values: [' <br><br>1.23'],
     align: 'center',
-    height: '60',
-    line: {width: 1, color: '#F5DEB3'},
-    height: 170,
+
+    line: {width: 0.5, color: 'cadetblue'},
+    height: 173,
+    width: 173,
     font: {size: 22, color: 'lightgray'},
     style: {margin: 10000}
   },
