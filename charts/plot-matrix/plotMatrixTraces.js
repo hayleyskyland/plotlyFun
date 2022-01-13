@@ -1,16 +1,18 @@
-// row A
-
 const y1 = [8, 10, 1, 10, 10, 10, 3, 4, 5, 8, 10, 12, 15, 3, 20, 22, 25, 29, 19, 22, 30, 21, 39, 40];
 const y2 = [2, 5, 4, 6, 4, 19, 18, 20, 21, 22, 25, 39, 26, 28, 29, 25, 24, 38, 38];
 const y3 = [1, 2, 10, 8, 33, 8, 7, 9, 9, 10, 19, 1, 2, 22, 22, 22, 26, 30, 38, 38, 30, 32, 33];
 
+import { osmo, time, duration, temp, ph } from './plotMatrixData.js';
+
 // row A
 
 // A1
+// x osmo
+// y osmo
 
 export const traceA1 = {
-  x: [1, 2, 3, 4, 5],
-  y: [5, 7, 5, 3, 6],
+  x: osmo,
+  y: osmo,
   xaxis: 'x1',
   yaxis: 'y1',    
   type: 'histogram',
@@ -19,6 +21,8 @@ export const traceA1 = {
 };
 
 // A2
+// x time
+// y osmo
 
 export const traceA2 = {
   type: 'table',
@@ -35,6 +39,8 @@ export const traceA2 = {
 };
 
 // A3
+// x duration
+// y osmo
 
 export const traceA3 = {
   type: 'table',
@@ -51,6 +57,8 @@ export const traceA3 = {
 };
 
 // A4
+// x temp
+// y osmo
 
 export const traceA4 = {
   type: 'table',
@@ -67,6 +75,8 @@ export const traceA4 = {
 };
 
 // A5
+// x ph
+// y osmo
 
 export const traceA5 = {
   type: 'table',
@@ -85,6 +95,8 @@ export const traceA5 = {
 // row B
 
 // B1
+// x osmo
+// y time
 
 // Prod.Inputs.Osmo (mOsm/Kg)
 
@@ -127,6 +139,8 @@ export const traceB1d = {
 };
 
 // B2
+// x time
+// y time
 
 export const traceB2 = {
   x: [20, 30, 40, 20, 10],
@@ -138,6 +152,8 @@ export const traceB2 = {
 };
 
 // B3
+// x duration
+// y time
 
 export const traceB3 = {
   type: 'table',
@@ -154,6 +170,8 @@ export const traceB3 = {
 };
 
 // B4
+// x temp
+// y time
 
 export const traceB4 = {
   type: 'table',
@@ -170,6 +188,8 @@ export const traceB4 = {
 };
 
 // B5
+// x ph
+// y time
 
 export const traceB5 = {
   type: 'table',
@@ -187,7 +207,9 @@ export const traceB5 = {
 
 // row C
 
-// C1
+// c1
+// x osmo
+// y duration
 
 export const traceC1a = {
   y: y1,
@@ -225,7 +247,9 @@ export const traceC1d = {
   marker: { color: 'lightgray' }
 };
 
-// C2
+// c2
+// x time
+// y duration
 
 export const traceC2a = {
   y: y1,
@@ -263,7 +287,9 @@ export const traceC2d = {
   marker: { color: 'lightgray' }
 };
 
-// C3
+// c3
+// x duration
+// y duration
 
 export const traceC3 = {
   x: [20, 30, 40, 50, 60],
@@ -274,7 +300,9 @@ export const traceC3 = {
   marker: { color: 'lightblue' },
 };
 
-// C4
+// c4
+// x temp
+// y duration
 
 export const traceC4 = {
   type: 'table',
@@ -290,7 +318,9 @@ export const traceC4 = {
   domain: {row: 2, column: 3}
 };
 
-// C5
+// c5
+// x ph
+// y duration
 
 export const traceC5 = {
   type: 'table',
@@ -309,6 +339,8 @@ export const traceC5 = {
 // row D
 
 // d1
+// x osmo
+// y temp
 
 export const traceD1a = {
   y: y1,
@@ -347,6 +379,8 @@ export const traceD1d = {
 };
 
 // d2
+// x time
+// y temp
 
 export const traceD2a = {
   y: y1,
@@ -385,6 +419,8 @@ export const traceD2d = {
 };
 
 // d3
+// x duration
+// y temp
 
 export const traceD3a = {
   y: y1,
@@ -423,6 +459,8 @@ export const traceD3d = {
 };
 
 // d4
+// x temp
+// y temp
 
 export const traceD4 = {
   x: [20, 30, 40, 30, 10],
@@ -434,6 +472,8 @@ export const traceD4 = {
 };
 
 // d5
+// x ph
+// y temp
 
 export const traceD5 = {
   type: 'table',
@@ -452,6 +492,8 @@ export const traceD5 = {
 // row E
 
 // e1
+// x osmo
+// y ph
 
 export const traceE1a = {
   y: y1,
@@ -490,6 +532,8 @@ export const traceE1d = {
 };
 
 // e2
+// x time
+// y ph
 
 export const traceE2a = {
   y: y1,
@@ -528,6 +572,8 @@ export const traceE2d = {
 };
 
 // e3
+// x duration
+// y ph
 
 export const traceE3a = {
   y: y1,
@@ -566,6 +612,8 @@ export const traceE3d = {
 };
 
 // e4
+// x temp
+// y ph
 
 export const traceE4a = {
   y: y1,
@@ -604,6 +652,8 @@ export const traceE4d = {
 };
 
 // e5
+// x ph
+// y ph
 
 export const traceE5 = {
   x: [20, 30, 40, 10, 10],

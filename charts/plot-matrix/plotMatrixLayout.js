@@ -7,6 +7,7 @@ export const plotMatrixLayout = {
       size: 30
     }
   },
+  
   width: 1034,
   height: 1034,
   margin: { l: 70, r: 70, b: 70, t: 130},
