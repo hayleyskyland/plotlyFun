@@ -20,8 +20,3 @@ export const plotMatrix = () => {
 
   Plotly.newPlot('matrix-2', data, plotMatrixLayout);
 }
-
-// custom tool tips??? one for each cell????
-
-// click cell to "zoom in" -- redirect to plotly event model
-// test with alert
