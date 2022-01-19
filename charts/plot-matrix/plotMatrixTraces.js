@@ -18,8 +18,8 @@ const histogram = (array, xaxis, yaxis, hover) => {
     type: 'histogram',
     mode: 'markers',
     marker: histogramColor,
-    text: hover,
-    hoverinfo: 'text'
+    // text: hover,
+    // hoverinfo: 'text'
   };
 }
 
@@ -28,8 +28,8 @@ const table = (xArray, yArray, row, column, hover) => {
     type: 'table',
     header: num(xArray, yArray),
     domain: {row: row, column: column},
-    text: hover,
-    hoverinfo: 'text'
+    // text: hover,
+    // hoverinfo: 'text'
   };
 }
 
@@ -42,8 +42,8 @@ const scatter = (xArray, yArray, xaxis, yaxis, hover) => {
     type: 'scatter',
     mode: 'markers',
     marker: scatterColor,
-    text: hover,
-    hoverinfo: 'text'
+    // text: hover,
+    // hoverinfo: 'text'
   };
 }
 

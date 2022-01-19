@@ -48,11 +48,14 @@ article {
   content: attr(title);
   margin: 3rem auto 0;
   width: 130px;
-  background-color: gray;
+  /* opacity: 0.5; */
+  /* background-color: gray; */
   /* padding: 1rem; */
-  opacity: 0.5;
-  color: white;
+  /* color: white; */
+  opacity: 0;
 }
+
+/* row 1 */
 
 .tooltip1x1 {
   top: 9.2rem;
@@ -88,3 +91,40 @@ article {
   opacity: 1;
   /* background-color: pink; */
 }
+
+/* row 2 */
+
+/* .tooltip2x1 {
+  top: 19.6rem;
+  left: -1.5rem;
+  opacity: 1;
+  background-color: yellow;
+}
+
+.tooltip2x2 {
+  top: 9.2rem;
+  left: -1.2rem;
+  opacity: 1;
+  background-color: blue;
+}
+
+.tooltip2x3 {
+  top: 9.2rem;
+  left: -0.9rem;
+  opacity: 1;
+  background-color: purple;
+}
+
+.tooltip2x4 {
+  top: 9.2rem;
+  left: -0.9rem;
+  opacity: 1;
+  background-color: green;
+}
+
+.tooltip2x5 {
+  top: 9.2rem;
+  left: -0.7rem;
+  opacity: 1;
+  background-color: pink;
+} */
