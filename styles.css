@@ -31,14 +31,13 @@ article {
 
 .tooltip {
   position: relative;
-  background: yellow;
+  /* background-color: yellow; */
   color: black;
   padding: 1rem;
-  top: 9.2rem;
-  left: -23.4rem;
   opacity: 0;
   width: 9rem;
   height: 8.4rem;
+  text-decoration: none;
 }
 
 .tooltip:hover:after{
@@ -47,8 +46,45 @@ article {
   -webkit-justify-content: center;
   justify-content: center;
   content: attr(title);
-  margin: 1px auto 0;
-  width: 150px;
-  background-color: red;
-  padding: 1rem;
+  margin: 3rem auto 0;
+  width: 130px;
+  background-color: gray;
+  /* padding: 1rem; */
+  opacity: 0.5;
+  color: white;
+}
+
+.tooltip1x1 {
+  top: 9.2rem;
+  left: -1.5rem;
+  opacity: 1;
+  /* background-color: yellow; */
+}
+
+.tooltip1x2 {
+  top: 9.2rem;
+  left: -1.2rem;
+  opacity: 1;
+  /* background-color: blue; */
+}
+
+.tooltip1x3 {
+  top: 9.2rem;
+  left: -0.9rem;
+  opacity: 1;
+  /* background-color: purple; */
+}
+
+.tooltip1x4 {
+  top: 9.2rem;
+  left: -0.9rem;
+  opacity: 1;
+  /* background-color: green; */
+}
+
+.tooltip1x5 {
+  top: 9.2rem;
+  left: -0.7rem;
+  opacity: 1;
+  /* background-color: pink; */
 }
