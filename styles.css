@@ -20,6 +20,7 @@ h1 {
   flex-direction: row;
   text-align: center;
   margin-top: -1rem;
+  position: absolute;
 }
 
 article {
@@ -31,3 +32,24 @@ article {
   font-weight: bold;
 }
 
+/* tooltips */
+
+.tooltip {
+  position: relative;
+  background: yellow;
+  color: black;
+  padding: 1rem;
+  top: 5rem;
+}
+
+.tooltip:hover:after{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  content: attr(title);
+  margin: 1px auto 0;
+  width: 150px;
+  background-color: red;
+  padding: 1rem;
+}

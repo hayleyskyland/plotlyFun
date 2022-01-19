@@ -18,7 +18,7 @@ const border = {
 
 export const plotMatrixLayout = {
 
-  hovermode: 'x',
+  // hovermode: 'x',
   
   title: {
     text: '<b>Plotly Matrix</b><br>Made With Test Data',
