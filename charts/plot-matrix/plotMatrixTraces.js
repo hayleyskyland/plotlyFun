@@ -18,8 +18,6 @@ const histogram = (array, xaxis, yaxis, hover) => {
     type: 'histogram',
     mode: 'markers',
     marker: histogramColor,
-    // hoveron: 'fills',
-    // fill: 'toself',
     text: hover,
     hoverinfo: 'text'
   };

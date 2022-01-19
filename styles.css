@@ -6,6 +6,7 @@ body {
   text-align: center;
   background-color: #3F3F37;
   margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 
 h1 {
@@ -18,7 +19,6 @@ h1 {
 .charts {
   display: flex;
   flex-direction: row;
-  /* text-align: center; */
   margin-top: -1rem;
   position: absolute;
 }
@@ -26,11 +26,6 @@ h1 {
 article {
   margin: 1rem;
 }
-
-/* .matrix {
-  background-color: pink !important;
-  font-weight: bold;
-} */
 
 /* tooltips */
 
