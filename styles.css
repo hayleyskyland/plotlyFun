@@ -18,7 +18,7 @@ h1 {
 .charts {
   display: flex;
   flex-direction: row;
-  text-align: center;
+  /* text-align: center; */
   margin-top: -1rem;
   position: absolute;
 }
@@ -27,10 +27,10 @@ article {
   margin: 1rem;
 }
 
-.matrix {
+/* .matrix {
   background-color: pink !important;
   font-weight: bold;
-}
+} */
 
 /* tooltips */
 
@@ -39,7 +39,11 @@ article {
   background: yellow;
   color: black;
   padding: 1rem;
-  top: 5rem;
+  top: 9.2rem;
+  left: -23.4rem;
+  opacity: 0;
+  width: 9rem;
+  height: 8.4rem;
 }
 
 .tooltip:hover:after{
