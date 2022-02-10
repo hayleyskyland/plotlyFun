@@ -1,4 +1,4 @@
-# plotlyFun
+# Plotly Fun
 
 This is practice for using [plotly](https://plotly.com/).
 
